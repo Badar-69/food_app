@@ -1,0 +1,70 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.nav{
+    margin-top: 1.5rem;
+    /* width: 100%; */
+    width: 72rem;
+    height: 4rem;
+    position: relative;
+    left: 6rem;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    width: 50rem;
+}
+
+.comp-name{
+    display: flex;
+    align-items: center;
+    margin-left: .5rem;
+}
+
+.comp-logo{
+    width: 3.13rem;
+    height: 2.5rem;
+}
+
+.comp-name{
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.comp-lName{
+    color: #f29f05;
+}
+
+.pg-links{
+    margin-left: 2rem;
+    text-decoration: none;
+    color: #363636;
+    transition: .3s;
+}
+
+.pg-links:hover{
+    color: #f29f05;
+}
+
+.nav-right{
+    position: absolute;
+    right: 4rem;
+}
+
+.bag-icon{
+    font-size: 20px;
+    color: #f29f05;
+    background-color: #fff;
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 10px;
+}
+
+.nav-button{
+    margin-left: 1rem;
+}
+
