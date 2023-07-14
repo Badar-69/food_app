@@ -1,0 +1,18 @@
+.comn-button {
+    width: 8.5rem;
+    height: 2.7rem;
+    border: none;
+    background-color: #f29f05;
+    color: #fff;
+    font-size: 15px;
+    text-align: center;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.comn-button:hover {
+    background-color: #fff;
+    color: #f29f05;
+    outline : 2px solid #f29f05;
+}
