@@ -1,0 +1,289 @@
+.front-main {
+    display: flex;
+    height: 45rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-first {
+    width: 34rem;
+    height: 25rem;
+}
+
+.main-heading {
+    font-size: 60px;
+    color: #363636;
+    font-weight: 900;
+}
+
+.main-para {
+    color: #787878;
+}
+
+.main-img {
+    width: 34rem;
+}
+
+#dropdown {
+    width: 20rem;
+    height: 3.4rem;
+    border: none;
+    box-shadow: -1px 15px 26px -4px rgba(161, 151, 151, 0.15);
+    font-size: 19px;
+    color: #787878;
+}
+
+.options {
+    color: #787878;
+    font-size: 19px;
+}
+
+/* Main Location */
+.main-second {
+    position: relative;
+}
+
+.main-location {
+    width: 14.5rem;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    color: #000;
+    border-radius: 20px;
+    position: absolute;
+    right: 1rem;
+    top: 6rem;
+}
+
+
+.locate-icon {
+    width: 2.3rem;
+    height: 1.8rem;
+    border-radius: 50%;
+    color: #fff;
+    background-color: #f29f05;
+    text-align: center;
+    font-size: 20px;
+    padding-top: 8px;
+}
+
+.main-locate-text {
+    margin-left: 1rem;
+}
+
+.main-rest {
+    font-weight: 800;
+}
+
+.main-city {
+    font-size: 11px;
+    color: #787878;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+/* Main Willington */
+.main-restaurant {
+    position: absolute;
+    right: 11rem;
+    top: 24rem;
+    width: 21rem;
+    height: 8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    color: #000;
+    border-radius: 20px;
+}
+
+.willmington-text {
+    margin-left: 1rem;
+}
+
+.small-img {
+    border-radius: 15px;
+}
+
+.star-icon {
+    color: #f29f05;
+    margin-left: 3px;
+    margin-bottom: 1rem;
+}
+
+/* Work Section */
+.work-section {
+    height: 45rem;
+}
+
+.work-parent {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 13rem;
+}
+
+.work-text {
+    width: 40rem;
+    height: 8rem;
+    text-align: center;
+}
+
+.work-heading {
+    font-size: 48px;
+    font-weight: 800;
+    color: #363636;
+}
+
+.work-para {
+    font-size: 16px;
+    color: #787878;
+}
+
+.work-cards {
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+}
+
+.wk-card {
+    width: 24rem;
+    height: 25rem;
+}
+
+.card-heading {
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.work-span {
+    font-size: 36px;
+    color: #CFCFCF;
+    font-weight: 800;
+}
+
+.card-para {
+    color: #787878;
+}
+
+/* Restaurants */
+.rest-section{
+    height: 50rem;
+}
+
+.rest-parent {
+    display: flex;
+    flex-wrap: wrap;
+    height: 38rem;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.rest-text {
+    width: 40%;
+}
+
+.rest-heading{
+    font-size: 48px;
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+.rest-para{
+    color: #787878;
+}
+
+.rest-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cafe-details {
+    width: 40%;
+}
+
+.cafe-img {
+    width: 6.25rem;
+    height: 6.25rem;
+    border-radius: 15px;
+}
+
+.cafes {
+    display: flex;
+}
+
+.cafe-text{
+    margin-left: 2rem;
+}
+
+.cafe-heading{
+    margin-top: 0;
+    margin-bottom: 2px;
+}
+
+.cafe-tags{
+    width: auto;
+    height: 2rem;
+    border-radius: 5px;
+    margin-left: .5rem;
+    padding: .3rem .9rem;
+    outline: 1px solid #f29f05;
+    color: #f29f05;
+    font-size: 14px;
+    text-decoration: none;
+    transition: .4s;
+}
+
+.cafe-tags:hover{
+    background-color: #f29f05;
+    color: #fff;
+}
+
+.cafe-para{
+    color: #787878;
+}
+
+.cf-button{
+    width: 7rem;
+    height: 3.5rem;
+    background-color: #fff;
+    color: #f29f05;
+    outline: 1px solid #f29f05;
+}
+
+.cf-button:hover{
+ background-color: #f29f05;
+ color: #fff;   
+}
+
+/* Favourite Section */
+.fav-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+
+.fav-heading{
+    font-size: 42px;
+    color: #363636;
+    font-weight: bolder;
+}
+
+.fav-para{
+    font-size: 16px;
+    color: #787878;
+}
+
+.fav-img{
+    width: 28rem;
+    height: 29rem;
+}
+
+.fav-second{
+    width: 34rem;
+    height: 21rem;
+}
