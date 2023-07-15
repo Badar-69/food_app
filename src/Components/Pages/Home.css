@@ -169,7 +169,7 @@
 }
 
 /* Restaurants */
-.rest-section{
+.rest-section {
     height: 50rem;
 }
 
@@ -185,17 +185,17 @@
     width: 40%;
 }
 
-.rest-heading{
+.rest-heading {
     font-size: 48px;
     margin-top: 0;
     margin-bottom: 1rem;
 }
 
-.rest-para{
+.rest-para {
     color: #787878;
 }
 
-.rest-button{
+.rest-button {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -215,16 +215,16 @@
     display: flex;
 }
 
-.cafe-text{
+.cafe-text {
     margin-left: 2rem;
 }
 
-.cafe-heading{
+.cafe-heading {
     margin-top: 0;
     margin-bottom: 2px;
 }
 
-.cafe-tags{
+.cafe-tags {
     width: auto;
     height: 2rem;
     border-radius: 5px;
@@ -237,16 +237,16 @@
     transition: .4s;
 }
 
-.cafe-tags:hover{
+.cafe-tags:hover {
     background-color: #f29f05;
     color: #fff;
 }
 
-.cafe-para{
+.cafe-para {
     color: #787878;
 }
 
-.cf-button{
+.cf-button {
     width: 7rem;
     height: 3.5rem;
     background-color: #fff;
@@ -254,36 +254,337 @@
     outline: 1px solid #f29f05;
 }
 
-.cf-button:hover{
- background-color: #f29f05;
- color: #fff;   
+.cf-button:hover {
+    background-color: #f29f05;
+    color: #fff;
 }
 
 /* Favourite Section */
-.fav-section{
+.fav-section {
     display: flex;
+    height: 41rem;
     justify-content: center;
     align-items: center;
     gap: 3rem;
 }
 
-.fav-heading{
+.fav-heading {
     font-size: 42px;
     color: #363636;
     font-weight: bolder;
 }
 
-.fav-para{
+.fav-para {
     font-size: 16px;
     color: #787878;
 }
 
-.fav-img{
+.fav-img {
     width: 28rem;
     height: 29rem;
 }
 
-.fav-second{
+.fav-second {
     width: 34rem;
     height: 21rem;
+}
+
+/* Services Section */
+.serv-section {
+    display: flex;
+    justify-content: space-around;
+    height: 14rem;
+}
+
+.serv-text {
+    width: 17rem;
+    height: 5rem;
+    color: #363636;
+}
+
+.serv-heading {
+    font-size: 34px;
+}
+
+.serv-block {
+    width: 16rem;
+    height: 9.5rem;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0px -1px 30px 4px rgba(0, 0, 0, 0.05);
+}
+
+.block-text {
+    width: 10rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.block-heading {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f29f05;
+}
+
+.block-para {
+    font-size: 16px;
+    color: #787878;
+}
+
+/* Customer Section */
+.cust-section {
+    display: flex;
+    height: 41rem;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+
+.cust-heading {
+    font-size: 42px;
+    color: #363636;
+    font-weight: bolder;
+}
+
+.cust-para {
+    font-size: 18px;
+    color: #787878;
+}
+
+.cust-img {
+    width: 34rem;
+    height: 29rem;
+}
+
+.cust-first {
+    width: 29rem;
+    height: 21rem;
+}
+
+.thomas {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.tom-img {
+    width: 4.3rem;
+    height: 4.3rem;
+}
+
+.tom-heading {
+    margin-top: 0;
+    margin-bottom: 3px;
+    font-size: 18px;
+    color: #363636;
+}
+
+
+/* Partnership Section */
+.part-section {
+    height: 36rem;
+    background-color: #363636;
+    color: #fff;
+}
+
+.part-text {
+    display: flex;
+    height: 12rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.part-heading {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.part-row {
+    display: flex;
+    justify-content: space-around;
+}
+
+.part-child {
+    position: relative;
+}
+
+.part-child::before {
+    content: "";
+    position: absolute;
+    width: 31rem;
+    height: 22rem;
+    border: 7px solid #f29f05;
+    border-radius: 20px;
+    top: -7%;
+    left: 2%;
+}
+
+.part-Img {
+    width: 31rem;
+    height: 19.5rem;
+    border-radius: 20px;
+}
+
+.child-text {
+    position: absolute;
+    bottom: 1.4rem;
+    left: 2.5rem;
+}
+
+.child-heading {
+    font-size: 34px;
+    margin-bottom: 3px;
+}
+
+.part-button {
+    width: 11rem;
+    height: 3.4rem;
+    font-size: 16px;
+}
+
+/* News Section */
+.news-section {
+    height: 61rem;
+}
+
+.news-head {
+    width: 47rem;
+    height: 15rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.news-heading {
+    width: 34rem;
+    height: 8.5rem;
+    font-size: 48px;
+    font-weight: 900;
+    color: #363636;
+}
+
+.news-row {
+    display: flex;
+    justify-content: space-around;
+}
+
+.post-one {
+    width: 34rem;
+    height: 38rem;
+    box-shadow: 0px -1px 30px 4px rgba(0, 0, 0, 0.05);
+    border-radius: 20px;
+}
+
+.post-Img1 {
+    width: 31rem;
+    height: 13rem;
+    border-radius: 10px;
+    margin: 1.5rem 1.5rem 1.5rem 1.5rem;
+}
+
+.post-text {
+    width: 30rem;
+    height: 17rem;
+    margin-left: 2rem;
+    border-bottom: 1px solid #CFCFCF;
+}
+
+.post-heading {
+    font-size: 30px;
+}
+
+.post-para {
+    color: #787878;
+}
+
+.post-link {
+    text-decoration: none;
+    color: #f29f05;
+    font-weight: 800;
+}
+
+.post-credits {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 21rem;
+    height: 2.7rem;
+    color: #CFCFCF;
+    font-size: 20px;
+}
+
+.post-comn {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    width: 34rem;
+    height: 14rem;
+}
+
+.post-comn-img {
+    border-radius: 20px;
+}
+
+.post-info {
+    width: 19rem;
+    height: 8.5rem;
+}
+
+.post-tags {
+    width: auto;
+    height: 2rem;
+    border-radius: 10px;
+    margin-right: .5rem;
+    padding: .3rem .9rem;
+    background-color: #f29f05;
+    color: #fff;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.post-info-head {
+    font-size: 18px;
+    color: #363636;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.post-reach {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 17rem;
+    height: 2.7rem;
+    color: #CFCFCF;
+    font-size: 20px;
+}
+
+.post-icons {
+    margin-right: 5px;
+}
+
+@media screen and (max-width:1024px) and (min-width:768px) {
+    .part-child::before {
+        width: 25rem;
+        height: 19rem;
+    }
+
+    .part-Img {
+        width: 25rem;
+        height: 19rem;
+    }
+
+    .news-head{
+        width: 57rem;
+    }
+
+    .news-section {
+        height: 91rem;
+    }
+
+    .news-row {
+        flex-direction: column;
+        align-items: center;
+    }
 }
