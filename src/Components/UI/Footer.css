@@ -1,86 +1,86 @@
-.footer{
+.footer {
     background-color: #363636;
     color: #fff;
     height: 36rem;
 }
 
-.foot-row{
+.foot-row {
     display: flex;
     height: 33rem;
     justify-content: space-evenly;
     align-items: center;
 }
 
-.foot-1{
+.foot-1 {
     width: 26rem;
     height: 23rem;
     display: flex;
     justify-content: center
 }
 
-.foot-comp{
+.foot-comp {
     display: flex;
     align-items: center;
 }
 
-.foot-name{
+.foot-name {
     font-size: 20px;
     font-weight: 800;
 }
 
-.foot-lName{
+.foot-lName {
     color: #f29f05;
 }
 
-.foot-logo{
+.foot-logo {
     width: 3.4rem;
     height: 2.5rem;
 }
 
-.foot-heading{
+.foot-heading {
     font-size: 46px;
     line-height: 1.3;
     margin-top: 10px;
     margin-bottom: 10px;
 }
 
-.foot-para{
+.foot-para {
     font-size: 16px;
     color: #CFCFCF;
 }
 
 
-.foot-2{
+.foot-2 {
     width: 17rem;
     height: 23rem;
 }
 
-.foot-menu{
+.foot-menu {
     font-size: 24px;
     color: #787878;
 }
 
-.foot-links{
+.foot-links {
     display: block;
     color: #CFCFCF;
     text-decoration: none;
     margin-bottom: 20px;
 }
 
-.arrow{
+.arrow {
     margin-left: 10px;
 }
 
-.foot-3{
+.foot-3 {
     width: 23.5rem;
     height: 23rem;
 }
 
-.foot-contact{
+.foot-contact {
     color: #CFCFCF;
 }
 
-.foot-icons{
+.foot-icons {
     display: inline-flex;
     justify-content: center;
     align-items: center;
@@ -93,14 +93,102 @@
     transition: .3s;
 }
 
-.foot-icons:hover{
+.foot-icons:hover {
     background-color: #f29f05;
     border: none;
 }
 
 @media screen and (max-width:918px) and (min-width:768px) {
-.foot-3{
-    width: 19rem;
+    .foot-3 {
+        width: 15rem;
+    }
+
 }
+
+@media screen and (max-width:720px) and (min-width:320px) {
+    .footer{
+        height: 59rem;
+    }
+
+    .foot-1 {
+        width: 35rem;
+        
+    }
+
+    .foot-2 {
+        width: 35rem;
+    }
+
+    .foot-3 {
+        width: 35rem;
+    }
+
+    .foot-row{
+        flex-direction: column;
+        height: 57rem;
+    }
+
+    .foot-heading{
+        font-size: 38px;
+    }
+
+}
+
+
+@media screen and (max-width:560px) and (min-width:320px) {
+    .footer{
+        height: 59rem;
+    }
+
+    .foot-1 {
+        width: 25rem;
+        
+    }
+
+    .foot-2 {
+        width: 25rem;
+    }
+
+    .foot-3 {
+        width: 25rem;
+    }
+
+    .foot-row{
+        flex-direction: column;
+        height: 57rem;
+    }
+
+    .foot-heading{
+        font-size: 38px;
+    }
+
+}
+
+@media screen and (max-width:375px) and (min-width:320px) {
+    .footer{
+        height: 59rem;
+    }
+
+    .foot-1 {
+        width: 20rem;
+        
+    }
+
+    .foot-2 {
+        width: 20rem;
+    }
+
+    .foot-3 {
+        width: 20rem;
+    }
+
+    .foot-row{
+        flex-direction: column;
+        height: 57rem;
+    }
+
+    .foot-heading{
+        font-size: 38px;
+    }
 
 }
