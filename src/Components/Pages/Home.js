@@ -1,5 +1,4 @@
 import React from 'react'
-import Navbar from '../UI/Navbar'
 import Buttons from '../UI/Buttons'
 import SubForm from '../UI/SubForm'
 import Footer from '../UI/Footer'
@@ -31,10 +30,8 @@ function Home() {
     ];
 
 
-
     return (
         <>
-            <Navbar />
 
             <div className="front-main">
                 <div className="main-first">
@@ -374,8 +371,8 @@ function Home() {
                 </div>
             </div>
 
-            <SubForm/>
-            <Footer/>
+            <SubForm />
+            <Footer />
 
         </>
     )
