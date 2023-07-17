@@ -1,0 +1,1747 @@
+.about-section {
+    height: 45rem;
+}
+
+.about-us {
+    display: flex;
+    width: 23%;
+    justify-content: center;
+    align-items: center;
+}
+
+.pr-page {
+    color: #cfcfcf;
+}
+
+.abt-arrow {
+    color: #f29f05;
+    font-size: 13px;
+    margin-left: .5rem;
+    margin-right: .5rem;
+}
+
+.cr-page {
+    color: #363636;
+}
+
+.about-row {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.about-text {
+    width: 40%;
+}
+
+.about-heading {
+    font-size: 48px;
+    color: #363636;
+}
+
+.about-para {
+    color: #787878;
+}
+
+.about-img {
+    width: 40%;
+}
+
+.abt-img {
+    width: 30.8rem;
+    height: 30.8rem;
+    border-radius: 58px;
+    transform: rotate(13deg);
+}
+
+
+/* Mission Section */
+.mission-section {
+    height: 31rem;
+}
+
+.mission-row {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.mission-text {
+    width: 35%;
+}
+
+.mission-heading {
+    font-size: 43px;
+    color: #363636;
+}
+
+.mission-para {
+    color: #787878;
+}
+
+.mission-img {
+    width: 40%;
+}
+
+.miss-img {
+    width: 34rem;
+    height: 21rem;
+}
+
+/* Cards Section */
+.card-section {
+    height: 44rem;
+}
+
+.cards-row {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 20%;
+    height: 29rem;
+    box-shadow: 1px 15px 26px -4px rgb(161 151 151 / 15%);
+    border-radius: 20px;
+    transition: 0.3s ease-in-out;
+}
+
+.card:hover {
+    background: linear-gradient(145deg, #FFBB45, #FF820B);
+    color: #fff;
+}
+
+.card:hover p {
+    color: #fff;
+    transition: 0.3s ease-in-out;
+
+}
+
+img.on {
+    position: absolute;
+    top: 1rem;
+    left: 2rem;
+    opacity: 1;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.card:hover img.on {
+    opacity: 0;
+}
+
+img.off {
+    position: absolute;
+    top: 1rem;
+    left: 2rem;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.card:hover img.off {
+    opacity: 1;
+}
+
+.card:hover image {
+    opacity: 1;
+}
+
+.card-text {
+    width: 80%;
+}
+
+.card-heading {
+    font-size: 36px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.abt-card-para {
+    color: #787878;
+}
+
+/* Mid Section */
+.mid-section {
+    height: 46rem;
+}
+
+.mid-row {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.mid-text {
+    width: 33%;
+}
+
+.mid-heading {
+    font-size: 43px;
+    color: #363636;
+}
+
+.mid-para {
+    color: #787878;
+}
+
+.mid-head {
+    font-size: 18px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.points {
+    width: auto;
+    padding: 0;
+}
+
+.point {
+    list-style-type: none;
+    margin-bottom: 15px;
+    color: #787878;
+    font-weight: 700;
+}
+
+.check-icon {
+    color: #f29f05;
+}
+
+.mid-img {
+    width: 40%;
+}
+
+.mid-pic {
+    width: 34rem;
+    height: 34rem;
+    border-radius: 20px;
+}
+
+/* Counter Section */
+.count-section {
+    height: 40rem;
+}
+
+.count-row {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.count-first {
+    width: 30%;
+}
+
+.count-img {
+    width: 34rem;
+}
+
+.count-second {
+    width: 40%;
+}
+
+.count-flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.counter {
+    width: 13rem;
+    height: 9.5rem;
+    flex-basis: 50%;
+    box-shadow: 0px -1px 30px 4px rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+}
+
+.counter-1 {
+    box-shadow: none;
+}
+
+.count-heading-1 {
+    font-size: 34px;
+}
+
+.count-heading {
+    font-size: 50px;
+    color: #f29f05;
+}
+
+.count-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 9rem;
+}
+
+.count-para {
+    color: #787878;
+    font-size: 18px;
+    margin-left: 10px;
+}
+
+/* Team Section */
+.team-section {
+    height: 62em;
+}
+
+.team-first {
+    display: flex;
+    width: 100%;
+    height: 20rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.team-text {
+    width: 48%;
+    text-align: center;
+}
+
+.team-heading {
+    font-size: 48px;
+    color: #363636;
+    margin-bottom: 15px;
+}
+
+.team-para {
+    color: #787878;
+}
+
+.team-second {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.member {
+    width: 30%;
+}
+
+.member-text {
+    text-align: center;
+}
+
+.memb-heading {
+    font-size: 24px;
+    margin-bottom: 10px;
+    margin-top: 15px;
+    font-weight: bolder;
+}
+
+.memb-para {
+    color: #787878;
+}
+
+.team-img {
+    width: 22rem;
+    height: 22rem;
+}
+
+.memb-icons {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    border: 1px solid #CFCFCF;
+    color: #787878;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.memb-icons:hover {
+    background-color: #f29f05;
+    color: #fff;
+    border: none;
+}
+
+/* Trust Section */
+.trust-parent {
+    height: 38rem;
+}
+
+.trust-section {
+    background-color: #fcfcfc;
+    height: 30rem;
+}
+
+.trust-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 10rem;
+}
+
+.trust-heading {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.trust-comp {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.trust-name {
+    text-align: center;
+    color: #C7C7C7;
+    font-weight: 900;
+}
+
+.trust-img {
+    width: 9rem;
+    height: auto;
+    opacity: 0.5;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.trust-img:hover {
+    opacity: 1;
+}
+
+/* Review Section */
+.review-section {
+    height: 20rem;
+}
+
+.review-row {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+}
+
+.rev {
+    width: 30%;
+    height: 15rem;
+    box-shadow: 0px -1px 30px 4px rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+.rev-heading {
+    font-size: 32px;
+    font-weight: 900;
+}
+
+.rev-para {
+    color: #787878;
+}
+
+.rev-name {
+    color: #000;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.rev-one {
+    box-shadow: none;
+}
+
+/* Media Queries */
+@media screen and (max-width:1270px) and (min-width:1024px) {
+    .abt-img {
+        width: 26rem;
+        height: 26rem;
+    }
+
+    .mid-pic {
+        width: 26rem;
+        height: 26rem;
+    }
+
+    .count-img {
+        width: 28rem;
+    }
+
+    .team-section {
+        height: 90rem;
+    }
+
+    .team-second {
+        flex-wrap: wrap;
+    }
+
+    .member {
+        width: 34%;
+    }
+}
+
+/* 990px */
+@media screen and (max-width:1000px) and (min-width:768px) {
+    .about-section {
+        height: 78rem;
+    }
+
+    .about-row {
+        flex-direction: column;
+    }
+
+    .about-text {
+        width: 80%;
+        height: 22rem;
+    }
+
+    .about-img {
+        width: 65%;
+    }
+
+    .abt-img {
+        width: 40rem;
+        height: 40rem;
+    }
+
+    .mission-section {
+        height: 50rem;
+    }
+
+    .mission-img {
+        width: 64%;
+    }
+
+    .mission-text {
+        width: 80%;
+    }
+
+    .mission-row {
+        flex-direction: column;
+    }
+
+    .miss-img {
+        width: 43rem;
+        height: 27rem;
+    }
+
+    .card-section {
+        height: 70rem;
+    }
+
+    .cards-row {
+        flex-wrap: wrap;
+    }
+
+    .card {
+        width: 35%;
+    }
+
+    .mid-section {
+        height: 78rem;
+    }
+
+    .mid-row {
+        flex-direction: column;
+    }
+
+    .mid-text {
+        width: 80%;
+        height: 30rem;
+    }
+
+    .mid-img {
+        width: 60%;
+    }
+
+    .mid-pic {
+        width: 40rem;
+        height: 40rem;
+    }
+
+    .count-section {
+        height: 70rem;
+    }
+
+    .count-row {
+        flex-direction: column;
+    }
+
+    .count-first {
+        width: 60%;
+        height: 50rem;
+    }
+
+    .count-img {
+        width: 40rem;
+    }
+
+    .count-second {
+        width: 80%;
+    }
+
+    .team-section {
+        height: 90rem;
+    }
+
+    .team-second {
+        flex-wrap: wrap;
+    }
+
+    .member {
+        width: 34%;
+    }
+
+    .review-section {
+        height: 60rem;
+    }
+
+    .review-row {
+        flex-direction: column;
+    }
+
+    .rev {
+        width: 70%;
+        margin-bottom: 20px;
+    }
+}
+
+/* 850px */
+@media screen and (max-width:850px) and (min-width:768px) {
+    .about-section {
+        height: 78rem;
+    }
+
+    .about-row {
+        flex-direction: column;
+    }
+
+    .about-text {
+        width: 80%;
+        height: 22rem;
+    }
+
+    .about-img {
+        width: 55%;
+    }
+
+    .abt-img {
+        width: 30rem;
+        height: 30rem;
+    }
+
+    .mission-section {
+        height: 50rem;
+    }
+
+    .mission-img {
+        width: 64%;
+    }
+
+    .mission-text {
+        width: 80%;
+    }
+
+    .mission-row {
+        flex-direction: column;
+    }
+
+    .miss-img {
+        width: 35rem;
+        height: 20rem;
+    }
+
+    .card-section {
+        height: 70rem;
+    }
+
+    .cards-row {
+        flex-wrap: wrap;
+    }
+
+    .card {
+        width: 35%;
+    }
+
+    .mid-section {
+        height: 78rem;
+    }
+
+    .mid-row {
+        flex-direction: column;
+    }
+
+    .mid-text {
+        width: 80%;
+        height: 30rem;
+    }
+
+    .mid-img {
+        width: 55%;
+    }
+
+    .mid-pic {
+        width: 30rem;
+        height: 30rem;
+    }
+
+    .count-section {
+        height: 70rem;
+    }
+
+    .count-row {
+        flex-direction: column;
+    }
+
+    .count-first {
+        width: 50%;
+        height: 50rem;
+    }
+
+    .count-img {
+        width: 30rem;
+    }
+
+    .count-second {
+        width: 80%;
+    }
+
+    .team-section {
+        height: 90rem;
+    }
+
+    .team-second {
+        flex-wrap: wrap;
+    }
+
+    .member {
+        width: 45%;
+    }
+
+    .review-section {
+        height: 60rem;
+    }
+
+    .review-row {
+        flex-direction: column;
+    }
+
+    .rev {
+        width: 70%;
+        margin-bottom: 20px;
+    }
+}
+
+
+/* 700px */
+@media screen and (max-width:700px) and (min-width:500px) {
+    .about-section {
+        height: 78rem;
+    }
+
+    .about-row {
+        flex-direction: column;
+    }
+
+    .about-text {
+        width: 80%;
+        height: 22rem;
+    }
+
+    .about-img {
+        width: 60%;
+    }
+
+    .abt-img {
+        width: 28rem;
+        height: 28rem;
+    }
+
+    .mission-section {
+        height: 50rem;
+    }
+
+    .mission-img {
+        width: 64%;
+    }
+
+    .mission-text {
+        width: 80%;
+    }
+
+    .mission-row {
+        flex-direction: column;
+    }
+
+    .miss-img {
+        width: 33rem;
+        height: 20rem;
+    }
+
+    .card-section {
+        height: 70rem;
+    }
+
+    .cards-row {
+        flex-wrap: wrap;
+    }
+
+    .card {
+        width: 35%;
+    }
+
+    .mid-section {
+        height: 78rem;
+    }
+
+    .mid-row {
+        flex-direction: column;
+    }
+
+    .mid-text {
+        width: 80%;
+        height: 32rem;
+    }
+
+    .mid-img {
+        width: 64%;
+    }
+
+    .mid-pic {
+        width: 28rem;
+        height: 28rem;
+    }
+
+    .count-section {
+        height: 70rem;
+    }
+
+    .count-row {
+        flex-direction: column;
+    }
+
+    .count-first {
+        width: 50%;
+        height: 50rem;
+    }
+
+    .count-img {
+        width: 30rem;
+    }
+
+    .count-second {
+        width: 80%;
+    }
+
+    .team-section {
+        height: 130rem;
+    }
+
+    .team-second {
+        flex-direction: column;
+    }
+
+    .member {
+        width: 50%;
+    }
+
+    .trust-section {
+        height: 72rem;
+    }
+
+    .trust-parent {
+        height: 72rem;
+    }
+
+    .trust-comp {
+        flex-direction: column;
+    }
+
+    .review-section {
+        height: 60rem;
+    }
+
+    .review-row {
+        flex-direction: column;
+    }
+
+    .rev {
+        width: 70%;
+        margin-bottom: 20px;
+    }
+}
+
+/* 630px */
+@media screen and (max-width:630px) and (min-width:500px) {
+    .about-us {
+        width: 50%;
+    }
+
+    .about-text {
+        height: 30rem;
+    }
+
+    .about-img {
+        width: 65%;
+    }
+
+
+    .abt-img {
+        width: 25rem;
+        height: 25rem;
+    }
+
+    .count-first {
+        width: 65%;
+    }
+
+    .count-img {
+        width: 29rem;
+    }
+
+    .miss-img {
+        width: 30rem;
+        height: 20rem;
+    }
+
+    .card-section {
+        height: 120rem;
+    }
+
+    .cards-row {
+        flex-wrap: nowrap;
+        flex-direction: column;
+    }
+
+    .card {
+        width: 80%;
+    }
+
+}
+
+/* 550px */
+@media screen and (max-width:550px) and (min-width:320px) {
+
+        .about-us {
+            width: 50%;
+        }
+    
+        .about-text {
+            width: 80%;
+
+            height: 32rem;
+        }
+
+        .about-section {
+            height: 78rem;
+        }
+    
+        .about-row {
+            flex-direction: column;
+        }
+    
+        .about-img {
+            width: 65%;
+        }
+    
+        .abt-img {
+            width: 22rem;
+            height: 22rem;
+        }
+    
+        .mission-section {
+            height: 50rem;
+        }
+    
+        .mission-img {
+            width: 64%;
+        }
+    
+        .mission-text {
+            width: 80%;
+        }
+    
+        .mission-row {
+            flex-direction: column;
+        }
+    
+        .miss-img {
+            width: 25rem;
+            height: 18rem;
+        }
+    
+        .card-section {
+            height: 120rem;
+        }
+    
+        .cards-row {
+            flex-wrap: nowrap;
+            flex-direction: column;
+        }
+    
+        .card {
+            width: 80%;
+        }
+    
+        .mid-section {
+            height: 78rem;
+        }
+    
+        .mid-row {
+            flex-direction: column;
+        }
+    
+        .mid-text {
+            width: 80%;
+            height: 32rem;
+        }
+    
+        .mid-img {
+            width: 64%;
+        }
+    
+        .mid-pic{
+            width: 22rem;
+            height: 22rem;
+        }
+    
+        .count-section {
+            height: 90rem;
+        }
+    
+        .count-row {
+            flex-direction: column;
+        }
+
+        .count-flex{
+            flex-direction: column;
+        }
+    
+        .count-first {
+            width: 50%;
+            height: 30rem;
+        }
+    
+        .count-img {
+            width: 23rem;
+        }
+    
+        .count-second {
+            width: 80%;
+        }
+
+        .counter{
+            width: 23rem;
+        }
+    
+        .count-first {
+            width: 65%;
+        }
+    
+        .count-img {
+            width: 23rem;
+        }
+    
+        .team-section {
+            height: 130rem;
+        }
+    
+        .team-second {
+            flex-direction: column;
+        }
+    
+        .member {
+            width: 50%;
+        }
+    
+        .trust-section {
+            height: 72rem;
+        }
+    
+        .trust-parent {
+            height: 72rem;
+        }
+    
+        .trust-comp {
+            flex-direction: column;
+        }
+    
+        .review-section {
+            height: 60rem;
+        }
+    
+        .review-row {
+            flex-direction: column;
+        }
+    
+        .rev {
+            width: 70%;
+            margin-bottom: 20px;
+        }
+    }
+
+/* 470px */
+    @media screen and (max-width:470px) and (min-width:320px) {
+
+        .about-us {
+            width: 50%;
+        }
+    
+        .about-text {
+            width: 80%;
+
+            height: 32rem;
+        }
+
+        .about-section {
+            height: 65rem;
+        }
+    
+        .about-row {
+            flex-direction: column;
+        }
+    
+        .about-img {
+            width: 65%;
+        }
+    
+        .abt-img {
+            width: 20rem;
+            height: 20rem;
+        }
+    
+        .mission-section {
+            height: 50rem;
+        }
+    
+        .mission-img {
+            width: 64%;
+        }
+    
+        .mission-text {
+            width: 80%;
+        }
+    
+        .mission-row {
+            flex-direction: column;
+        }
+    
+        .miss-img {
+            width: 20rem;
+            height: 14rem;
+        }
+    
+        .card-section {
+            height: 120rem;
+        }
+    
+        .cards-row {
+            flex-wrap: nowrap;
+            flex-direction: column;
+        }
+    
+        .card {
+            width: 80%;
+        }
+    
+        .mid-section {
+            height: 78rem;
+        }
+    
+        .mid-row {
+            flex-direction: column;
+        }
+    
+        .mid-text {
+            width: 80%;
+            height: 36rem;
+        }
+    
+        .mid-img {
+            width: 70%;
+        }
+    
+        .mid-pic{
+            width: 22rem;
+            height: 22rem;
+        }
+    
+        .count-section {
+            height: 90rem;
+        }
+    
+        .count-row {
+            flex-direction: column;
+        }
+
+        .count-flex{
+            flex-direction: column;
+        }
+    
+        .count-first {
+            width: 50%;
+            height: 30rem;
+        }
+    
+        .count-img {
+            width: 23rem;
+        }
+    
+        .count-second {
+            width: 80%;
+        }
+
+        .counter{
+            width: 23rem;
+        }
+    
+        .count-first {
+            width: 65%;
+        }
+    
+        .count-img {
+            width: 23rem;
+        }
+    
+        .team-section {
+            height: 130rem;
+        }
+    
+        .team-second {
+            flex-direction: column;
+        }
+    
+        .member {
+            width: 75%;
+        }
+    
+        .trust-section {
+            height: 72rem;
+        }
+    
+        .trust-parent {
+            height: 72rem;
+        }
+    
+        .trust-comp {
+            flex-direction: column;
+        }
+    
+        .review-section {
+            height: 60rem;
+        }
+    
+        .review-row {
+            flex-direction: column;
+        }
+    
+        .rev {
+            width: 70%;
+            margin-bottom: 20px;
+        }
+    }
+
+
+    /* 425px */
+    @media screen and (max-width:425px) and (min-width:320px) {
+
+        .about-us {
+            width: 50%;
+        }
+    
+        .about-text {
+            width: 80%;
+
+            height: 32rem;
+        }
+
+        .about-section {
+            height: 65rem;
+        }
+    
+        .about-row {
+            flex-direction: column;
+        }
+    
+        .about-img {
+            width: 65%;
+        }
+    
+        .abt-img {
+            width: 19rem;
+            height: 19rem;
+        }
+    
+        .mission-section {
+            height: 50rem;
+        }
+    
+        .mission-img {
+            width: 64%;
+        }
+    
+        .mission-text {
+            width: 80%;
+        }
+    
+        .mission-row {
+            flex-direction: column;
+        }
+    
+        .miss-img {
+            width: 20rem;
+            height: 14rem;
+        }
+    
+        .card-section {
+            height: 120rem;
+        }
+    
+        .cards-row {
+            flex-wrap: nowrap;
+            flex-direction: column;
+        }
+    
+        .card {
+            width: 80%;
+        }
+    
+        .mid-section {
+            height: 70rem;
+        }
+    
+        .mid-row {
+            flex-direction: column;
+        }
+    
+        .mid-text {
+            width: 80%;
+            height: 39rem;
+        }
+    
+        .mid-img {
+            width: 70%;
+        }
+    
+        .mid-pic{
+            width: 20rem;
+            height: 20rem;
+        }
+    
+        .count-section {
+            height: 80rem;
+        }
+    
+        .count-row {
+            flex-direction: column;
+        }
+
+        .count-flex{
+            flex-direction: column;
+        }
+    
+        .count-first {
+            width: 50%;
+            height: 30rem;
+        }
+    
+        .count-img {
+            width: 20rem;
+        }
+    
+        .count-second {
+            width: 80%;
+        }
+
+        .counter{
+            width: 23rem;
+        }
+    
+        .count-first {
+            width: 65%;
+        }
+    
+        .team-section {
+            height: 130rem;
+        }
+
+        .team-text{
+            width: 80%;
+        }
+    
+        .team-second {
+            flex-direction: column;
+        }
+    
+        .member {
+            width: 75%;
+        }
+    
+        .trust-section {
+            height: 72rem;
+        }
+    
+        .trust-parent {
+            height: 72rem;
+        }
+    
+        .trust-comp {
+            flex-direction: column;
+        }
+    
+        .review-section {
+            height: 60rem;
+        }
+    
+        .review-row {
+            flex-direction: column;
+        }
+    
+        .rev {
+            width: 70%;
+            margin-bottom: 20px;
+        }
+    }
+
+
+    /* 375px */
+    @media screen and (max-width:375px) and (min-width:320px) {
+
+        .about-us {
+            width: 50%;
+        }
+    
+        .about-text {
+            width: 80%;
+
+            height: 32rem;
+        }
+
+        .about-section {
+            height: 65rem;
+        }
+    
+        .about-row {
+            flex-direction: column;
+        }
+    
+        .about-img {
+            width: 65%;
+        }
+    
+        .abt-img {
+            width: 15rem;
+            height: 15rem;
+        }
+    
+        .mission-section {
+            height: 50rem;
+        }
+    
+        .mission-img {
+            width: 64%;
+        }
+    
+        .mission-text {
+            width: 80%;
+        }
+    
+        .mission-row {
+            flex-direction: column;
+        }
+    
+        .miss-img {
+            width: 17rem;
+            height: 12rem;
+        }
+    
+        .card-section {
+            height: 120rem;
+        }
+    
+        .cards-row {
+            flex-wrap: nowrap;
+            flex-direction: column;
+        }
+    
+        .card {
+            width: 80%;
+        }
+    
+        .mid-section {
+            height: 70rem;
+        }
+    
+        .mid-row {
+            flex-direction: column;
+        }
+    
+        .mid-text {
+            width: 80%;
+            height: 46rem;
+        }
+    
+        .mid-img {
+            width: 70%;
+        }
+    
+        .mid-pic{
+            width: 17rem;
+            height: 17rem;
+        }
+    
+        .count-section {
+            height: 80rem;
+        }
+    
+        .count-row {
+            flex-direction: column;
+        }
+
+        .count-flex{
+            flex-direction: column;
+        }
+    
+        .count-first {
+            width: 50%;
+            height: 30rem;
+        }
+    
+        .count-img {
+            width: 17rem;
+        }
+    
+        .count-second {
+            width: 80%;
+        }
+
+        .counter{
+            width: 20rem;
+        }
+    
+        .count-first {
+            width: 65%;
+        }
+    
+        .team-section {
+            height: 130rem;
+        }
+
+        .team-text{
+            width: 80%;
+        }
+    
+        .team-second {
+            flex-direction: column;
+        }
+
+        .team-img{
+            width: 18rem;
+            height: 18rem;
+        }
+    
+        .member {
+            width: 75%;
+        }
+    
+        .trust-section {
+            height: 72rem;
+        }
+    
+        .trust-parent {
+            height: 72rem;
+        }
+    
+        .trust-comp {
+            flex-direction: column;
+        }
+    
+        .review-section {
+            height: 60rem;
+        }
+    
+        .review-row {
+            flex-direction: column;
+        }
+    
+        .rev {
+            width: 80%;
+            height: 20rem;
+            margin-bottom: 20px;
+        }
+    }
+
+
+    /* 320px */
+    @media screen and (max-width:375px) and (min-width:300px) {
+
+        .about-us {
+            width: 50%;
+        }
+    
+        .about-text {
+            width: 80%;
+
+            height: 32rem;
+        }
+
+        .about-section {
+            height: 65rem;
+        }
+    
+        .about-row {
+            flex-direction: column;
+        }
+    
+        .about-img {
+            width: 65%;
+        }
+    
+        .abt-img {
+            width: 15rem;
+            height: 15rem;
+        }
+    
+        .mission-section {
+            height: 50rem;
+        }
+    
+        .mission-img {
+            width: 64%;
+        }
+    
+        .mission-text {
+            width: 80%;
+        }
+    
+        .mission-row {
+            flex-direction: column;
+        }
+    
+        .miss-img {
+            width: 15rem;
+            height: 10rem;
+        }
+    
+        .card-section {
+            height: 120rem;
+        }
+    
+        .cards-row {
+            flex-wrap: nowrap;
+            flex-direction: column;
+        }
+    
+        .card {
+            width: 80%;
+        }
+    
+        .mid-section {
+            height: 70rem;
+        }
+    
+        .mid-row {
+            flex-direction: column;
+        }
+    
+        .mid-text {
+            width: 80%;
+            height: 49rem;
+        }
+    
+        .mid-img {
+            width: 70%;
+        }
+    
+        .mid-pic{
+            width: 15rem;
+            height: 15rem;
+        }
+    
+        .count-section {
+            height: 80rem;
+        }
+    
+        .count-row {
+            flex-direction: column;
+        }
+
+        .count-flex{
+            flex-direction: column;
+        }
+    
+        .count-first {
+            width: 50%;
+            height: 25rem;
+        }
+    
+        .count-img {
+            width: 15rem;
+        }
+    
+        .count-second {
+            width: 80%;
+        }
+
+        .counter{
+            width: 16rem;
+        }
+    
+        .count-first {
+            width: 65%;
+        }
+    
+        .team-section {
+            height: 130rem;
+        }
+
+        .team-text{
+            width: 80%;
+        }
+    
+        .team-second {
+            flex-direction: column;
+        }
+
+        .team-img{
+            width: 16rem;
+            height: 16rem;
+        }
+    
+        .member {
+            width: 75%;
+        }
+    
+        .trust-section {
+            height: 72rem;
+        }
+    
+        .trust-parent {
+            height: 72rem;
+        }
+    
+        .trust-comp {
+            flex-direction: column;
+        }
+    
+        .review-section {
+            height: 60rem;
+        }
+    
+        .review-row {
+            flex-direction: column;
+        }
+    
+        .rev {
+            width: 80%;
+            height: 20rem;
+            margin-bottom: 20px;
+        }
+    }
