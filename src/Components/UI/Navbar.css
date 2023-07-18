@@ -70,6 +70,8 @@ body {
     margin-left: 1rem;
 }
 
+
+
 /* Media Queries */
 @media screen and (max-width:1279px) and (min-width:1024px) {
     .nav {
