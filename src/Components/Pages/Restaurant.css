@@ -1,0 +1,306 @@
+.resta-section {
+    height: 36rem;
+}
+
+.resta-row {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.row-one {
+    width: 40%;
+}
+
+.row-heading {
+    font-size: 48px;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.row-para {
+    color: #787878;
+}
+
+.row-two {
+    width: 40%;
+}
+
+.row-img {
+    width: 100%;
+}
+
+/* Bg-Section */
+.bg-section {
+    height: 30rem;
+}
+
+.bg-container {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.banner-img {
+    background-image: url('../../assets/bg-img.jpg');
+    width: 88%;
+    height: 25rem;
+    background-repeat: no-repeat;
+    /* background-size: contain; */
+}
+
+.bg-top {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    gap: 2rem;
+}
+
+.bg-month {
+    width: 20%;
+    background-color: #f29f05;
+    color: #fff;
+    text-align: center;
+    font-size: 14px;
+    border-radius: 5px;
+}
+
+
+.bg-wilmington {
+    width: 25%;
+    display: flex;
+    align-items: center;
+}
+
+.top-img {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 10px;
+}
+
+.will-heading {
+    font-size: 18px;
+    margin-left: 10px;
+}
+
+.bg-second {
+    display: flex;
+    width: 40%;
+    height: 15rem;
+    align-items: center;
+}
+
+.bg-heading {
+    font-size: 44px;
+}
+
+.bg-span {
+    color: #f29f05;
+}
+
+.bg-btn {
+    width: 10rem;
+    height: 3.2rem;
+    background-color: #fff;
+    color: #f29f05;
+    outline: 2px solid #f29f05;
+}
+
+.bg-btn:hover {
+    background-color: #f29f05;
+    color: #fff;
+    outline: none;
+}
+
+/* Name Section */
+.name-section {
+    height: 76rem;
+}
+
+.name-row {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 2rem;
+}
+
+.name-card {
+    width: 40%;
+    box-shadow: 0px -1px 30px 4px rgba(0, 0, 0, 0.05);
+    border-radius: 15px;
+}
+
+.name-text {
+    padding-top: 2rem;
+    padding-left: 2rem;
+    box-sizing: border-box;
+}
+
+.name-img {
+    border-radius: 15px;
+}
+
+.name-heading {
+    font-size: 23px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.name-tags {
+    width: auto;
+    height: 2rem;
+    border-radius: 5px;
+    margin-left: .5rem;
+    padding: .3rem .9rem;
+    outline: 1px solid #f29f05;
+    color: #f29f05;
+    font-size: 14px;
+    text-decoration: none;
+    transition: .4s;
+}
+
+.name-tags:hover {
+    background-color: #f29f05;
+    color: #fff;
+}
+
+.name-para {
+    color: #787878;
+}
+
+/* Meida Queries */
+@media screen and (max-width:990px) {
+    .resta-section {
+        height: 60rem;
+    }
+
+    .resta-row {
+        flex-direction: column;
+    }
+
+    .row-one {
+        width: 60%;
+        height: 16rem;
+    }
+
+    .row-two {
+        width: 70%;
+    }
+
+    .name-section {
+        height: 140rem;
+    }
+
+    .name-card {
+        width: 67%;
+    }
+}
+
+@media screen and (max-width:990px) and (min-width:320px) {
+    .about-us {
+        width: 65%;
+    }
+
+    .resta-section {
+        height: 60rem;
+    }
+
+    .resta-row {
+        flex-direction: column;
+    }
+
+    .row-one {
+        width: 60%;
+        height: 16rem;
+    }
+
+    .row-two {
+        width: 70%;
+    }
+
+    .name-section {
+        height: 150rem;
+    }
+
+    .name-card {
+        width: 67%;
+    }
+
+}
+
+@media screen and (max-width:700px) and (min-width:320px) {
+    .bg-second {
+        width: 77%;
+        justify-content: center;
+    }
+
+    .bg-month{
+        width: 40%;
+    }
+
+    .bg-wilmington{
+        width: 40%;
+    }
+}
+
+/* 500px */
+@media screen and (max-width:500px) and (min-width:320px) {
+    .resta-section {
+        height: 45rem;
+    }
+
+    .bg-second {
+        width: 77%;
+        justify-content: center;
+    }
+
+    .bg-month{
+        width: 40%;
+    }
+
+    .bg-wilmington{
+        width: 45%;
+    }
+
+    .name-tags{
+        display: none;
+    }
+}
+
+@media screen and (max-width:425px) and (min-width:320px) {
+    .resta-section {
+        height: 45rem;
+    }
+
+    .row-one{
+        width: 85%;
+    }
+
+    .row-two{
+        width: 90%;
+    }
+
+    .bg-second {
+        width: 77%;
+        justify-content: center;
+    }
+
+    .bg-month{
+        width: 30%;
+    }
+
+    .bg-wilmington{
+        width: 50%;
+    }
+
+    .name-card{
+        width: 85%;
+    }
+
+    .name-tags{
+        display: none;
+    }
+}
