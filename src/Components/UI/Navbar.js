@@ -1,10 +1,18 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { NavLink } from 'react-router-dom';
 import Buttons from './Buttons'
 import logo from '../../assets/logo.png'
 import '../UI/Navbar.css'
 
 function Navbar() {
+
+    const [isDropdownOpen, setDropdownOpen] = useState(false);
+
+    const handleDropdownToggle = () => {
+        setDropdownOpen(!isDropdownOpen);
+    };
+
+
     return (
         <>
             <div className="nav">
@@ -15,20 +23,31 @@ function Navbar() {
                     </div>
 
                     <div className="links">
-                        {/* <a href="/" className="pg-links">Home</a>
-                        <a href="/" className="pg-links">About Us</a>
-                        <a href="/" className="pg-links">Restaurants</a>
-                        <a href="/" className="pg-links">Pages</a>
-                        <a href="/" className="pg-links">Contacts</a> */}
-
                         <NavLink exact to="/" className="pg-links" activeClassName="active">
                             Home
                         </NavLink>
-                        <NavLink to="/about" className="pg-links" activeClassName="active">
+                        <NavLink to="/about" className=" pg-links" activeClassName="active">
                             About Us
                         </NavLink>
-                        <NavLink to="/restaurants" className="pg-links" activeClassName="active">
+                        <NavLink
+                            to="/restaurants"
+                            className="pg-resta pg-links"
+                            activeClassName="active"
+                            onMouseEnter={handleDropdownToggle}
+                            onMouseLeave={handleDropdownToggle}
+                        >
                             Restaurants
+                            {isDropdownOpen && (
+                                <div className="dropdown-menu">
+                                    <NavLink to="/restaurants/restaurant_card" className="dropdown-link">
+                                        Restaurant Card
+                                    </NavLink>
+                                    <NavLink to="/restaurants/checkout" className="dropdown-link">
+                                        Checkout
+                                    </NavLink>
+                                </div>
+                            )}
+
                         </NavLink>
                         <NavLink to="/pages" className="pg-links" activeClassName="active">
                             Pages
