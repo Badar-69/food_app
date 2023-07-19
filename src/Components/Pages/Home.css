@@ -153,13 +153,17 @@
     height: 25rem;
 }
 
+.card-text{
+    width: 100%;
+}
+
 .card-heading {
     font-size: 24px;
     font-weight: 800;
 }
 
 .work-span {
-    font-size: 36px;
+    font-size: 28px;
     color: #CFCFCF;
     font-weight: 800;
 }
