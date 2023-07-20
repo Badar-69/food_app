@@ -2,17 +2,40 @@
     width: 8.5rem;
     height: 2.7rem;
     border: none;
-    background-color: #f29f05;
     color: #fff;
     font-size: 15px;
     text-align: center;
     border-radius: 10px;
     cursor: pointer;
     transition: .5s;
+    position: relative;
+    z-index: 999;
+    overflow: hidden;
+    background-color: #f29f05;
+
+}
+
+.comn-btn-span {
+    width: 2px;
+    height: 5px;
+    position: absolute;
+    top: -30px;
+    left: -5px;
+    background-color: #f29f05;
+    z-index: -1;
+    transform: rotate(300deg);
+    transition: .3s ease-in-out;
+
+
+}
+
+.comn-button:hover .comn-btn-span {
+    width: 10.5rem;
+    height: 5.9rem;
 }
 
 .comn-button:hover {
     background-color: #fff;
-    color: #f29f05;
-    outline : 2px solid #f29f05;
+    color: #fff;
+    outline: 2px solid #f29f05;
 }
