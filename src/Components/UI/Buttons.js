@@ -5,7 +5,7 @@ const Buttons = ({ text, className }) => {
     return (
         <>
                 <button className={`comn-button ${className}`}>
-                    {text}
+                    {text} <span className='comn-btn-span'></span>
                 </button>
         </>
     )
