@@ -1,3 +1,10 @@
+.rest-data-section {
+    height: 50rem;
+    background-image: url('../../assets/background.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
 .current-page {
     display: flex;
     width: 43%;
@@ -10,14 +17,15 @@
     justify-content: space-evenly;
     width: 100%;
 }
-.logo-detail{
+
+.logo-detail {
     display: flex;
     width: 100%;
     align-items: center;
     gap: 2rem;
 }
 
-.rst-img{
+.rst-img {
     width: 5rem;
     height: 5rem;
     border-radius: 15px;
@@ -27,7 +35,7 @@
     width: 38%;
 }
 
-.logo-heading{
+.logo-heading {
     font-size: 44px;
 }
 
@@ -36,13 +44,13 @@
     position: relative;
 }
 
-.rate-span{
+.rate-span {
     color: #cfcfcf;
     font-size: 12px;
     margin-top: 20px;
 }
 
-.feature-para{
+.feature-para {
     color: #787878;
 }
 
@@ -79,9 +87,224 @@
     border-radius: 20px;
 }
 
-.logo-icon{
+.logo-icon {
     background-color: #f29f05;
     color: #fff;
     padding: 10px 10px;
     border-radius: 20px;
+}
+
+/* Meals Section */
+.meals-section {
+    height: 20rem;
+}
+
+.meal-text-parent {
+    height: 6rem;
+}
+
+.meal-text {
+    display: flex;
+    width: 100%;
+    height: 5rem;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px -1px 30px 4px rgba(0, 0, 0, 0.05);
+
+}
+
+.meal-btns {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.btns-rest {
+    color: #363636;
+    background-color: #fff;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.btns-rest:hover {
+    color: #f29f05;
+}
+
+.like-meals {
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    align-items: center;
+    cursor: pointer;
+}
+
+.meal-icon {
+    color: #f29f05;
+    font-size: 18px;
+}
+
+.meal-para {
+    color: #f29f05;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 800;
+}
+
+.meals-row {
+    display: flex;
+    width: 100%;
+    height: 90rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    gap: 2rem;
+}
+
+.dish {
+    width: 25%;
+    height: 36rem;
+    box-shadow: 0px -1px 30px 4px rgba(0, 0, 0, 0.05);
+    border-radius: 20px;
+}
+
+.dish-img {
+    margin-top: 20px;
+    margin-left: 23px;
+    width: 85%;
+}
+
+.dish-details {
+    margin-left: 23px;
+}
+
+.dish-heading {
+    font-size: 26px;
+    font-weight: 900;
+}
+
+.dish-tags {
+    width: auto;
+    height: 2rem;
+    border-radius: 5px;
+    margin-left: .5rem;
+    padding: .3rem .9rem;
+    outline: 1px solid #f29f05;
+    color: #f29f05;
+    font-size: 14px;
+    text-decoration: none;
+    transition: .4s;
+}
+
+.dish-tags:hover {
+    background-color: #f29f05;
+    color: #fff;
+}
+
+.dish-icons {
+    color: #f29f05;
+    margin-left: 10px;
+}
+
+.dish-price {
+    display: flex;
+    width: 100%;
+    height: 8rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.price-heading {
+    width: 40%;
+    font-size: 46px;
+    font-weight: 900;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.price-increase {
+    width: 56%;
+}
+
+.dish-btn {
+    width: 2.5rem;
+    height: 2.5rem;
+    border: none;
+    outline: 1px solid #f29f05;
+    background-color: #fff;
+    border-radius: 8px;
+    font-size: 25px;
+    color: #f29f05;
+    cursor: pointer;
+}
+
+#dish-input {
+    width: 2.5rem;
+    height: 2.5rem;
+    text-align: center;
+    box-sizing: border-box;
+    border: 1px solid #F2F2F2;
+    border-radius: 9px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.dish-add{
+    display: flex;
+    width: 92%;
+    justify-content: center;
+}
+
+.btn-cart {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 15rem;
+    height: 3.2rem;
+    border: none;
+    background-color: #f29f05;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    text-align: center;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.btn-cart:hover {
+    background-color: #fff;
+    color: #f29f05;
+    outline: 2px solid #f29f05;
+}
+
+.disabled{
+    cursor: not-allowed;
+}
+
+.lunch-text{
+    display: flex;
+    width: 67%;
+    justify-content: center;
+    align-items: center;
+}
+
+.lunch-heading{
+    font-size: 46px;
+    width: 67%;
+}
+
+.lunch-row{
+    display: flex;
+    width: 100%;
+    height: 40rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    gap: 2rem;
 }
