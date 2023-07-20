@@ -1,5 +1,8 @@
 .about-section {
     height: 45rem;
+    background-image: url('../../assets/background.png');
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 
 .about-us {
@@ -227,6 +230,9 @@ img.off {
 /* Counter Section */
 .count-section {
     height: 40rem;
+    background-image: url('../../assets/background.png');
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 
 .count-row {
