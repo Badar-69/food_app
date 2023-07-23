@@ -5,6 +5,7 @@ import Home from "./Components/Pages/Home";
 import AboutUs from "./Components/Pages/AboutUs";
 import Restaurant from "./Components/Pages/Restaurant";
 import RestCard from "./Components/Pages/RestCard";
+import Checkout from "./Components/Pages/Checkout";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
           <Route path="/about" element={<AboutUs />} />
           <Route path="/restaurants" element={<Restaurant />} />
           <Route path="/restaurants/restaurant_card" element={<RestCard />} />
+          <Route path="/restaurants/checkout" element={<Checkout />} />
         </Routes>
       </Router>
     </>
