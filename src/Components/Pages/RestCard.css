@@ -96,7 +96,7 @@
 
 /* Meals Section */
 .meals-section {
-    height: 20rem;
+    height: auto;
 }
 
 .meal-text-parent {
@@ -254,7 +254,7 @@
     margin-right: 5px;
 }
 
-.dish-add{
+.dish-add {
     display: flex;
     width: 92%;
     justify-content: center;
@@ -283,23 +283,23 @@
     outline: 2px solid #f29f05;
 }
 
-.disabled{
+.disabled {
     cursor: not-allowed;
 }
 
-.lunch-text{
+.lunch-text {
     display: flex;
     width: 67%;
     justify-content: center;
     align-items: center;
 }
 
-.lunch-heading{
+.lunch-heading {
     font-size: 46px;
     width: 67%;
 }
 
-.lunch-row{
+.lunch-row {
     display: flex;
     width: 100%;
     height: 40rem;
@@ -307,4 +307,290 @@
     justify-content: center;
     align-content: center;
     gap: 2rem;
+}
+
+/* Media Qureies */
+/* 1024px */
+@media screen and (max-width:1024px) {
+    .logo-lunch {
+        width: 70%;
+    }
+
+    .meal-text-parent {
+        height: 22rem;
+    }
+
+    .meal-text {
+        justify-content: center;
+    }
+
+    .dish {
+        flex-basis: 40%;
+    }
+
+    .lunch-text {
+        height: 37rem;
+    }
+
+    .lunch-row {
+        height: 83rem;
+    }
+}
+
+/* 1024px */
+@media screen and (max-width:1024px) and (min-width:990px) {
+    .logo-lunch {
+        width: 70%;
+    }
+
+    .meal-text-parent {
+        height: 22rem;
+    }
+
+    .meal-text {
+        justify-content: center;
+    }
+
+    .dish {
+        flex-basis: 40%;
+    }
+
+    .lunch-text {
+        height: 37rem;
+    }
+
+    .lunch-row {
+        height: 83rem;
+    }
+}
+
+/* 990px */
+@media screen and (max-width:990px) and (min-width:320px) {
+    .current-page {
+        width: 60%;
+    }
+
+    .rest-data-section {
+        height: 70rem;
+    }
+
+    .data-row {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .logo-rate {
+        width: 85%;
+        height: 35rem;
+    }
+
+    .logo-img {
+        width: 49%;
+    }
+
+    .logo-lunch {
+        width: 70%;
+    }
+
+    .meal-text-parent {
+        height: 22rem;
+    }
+
+    .meal-text {
+        justify-content: center;
+    }
+
+    .dish {
+        flex-basis: 40%;
+    }
+
+    .lunch-text {
+        height: 37rem;
+    }
+
+    .lunch-row {
+        height: 83rem;
+    }
+}
+
+/* 600px */
+@media screen and (max-width:600px) and (min-width:320px) {
+    .current-page {
+        width: 60%;
+    }
+
+    .rest-data-section {
+        height: 70rem;
+    }
+
+    .data-row {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .logo-rate {
+        width: 85%;
+        height: 35rem;
+    }
+
+    .logo-img {
+        width: 70%;
+    }
+
+    .logo-lunch {
+        width: 70%;
+    }
+
+    .meal-text-parent {
+        height: 22rem;
+    }
+
+    .meal-text {
+        justify-content: space-evenly;
+    }
+
+    .meals-row{
+        height: 223rem;
+    }
+
+    .dish {
+        flex-basis: 80%;
+        height: auto;
+    }
+
+    .lunch-text {
+        height: 37rem;
+    }
+
+    .lunch-row {
+        height: 122rem;
+    }
+}
+
+/* 425px */
+@media screen and (max-width:425px) and (min-width:320px) {
+    .current-page {
+        width: 100%;
+    }
+
+    .rest-data-section {
+        height: 70rem;
+    }
+
+    .data-row {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .logo-rate {
+        width: 100%;
+        height: 35rem;
+    }
+
+    .logo-img {
+        width: 80%;
+    }
+
+    .logo-lunch {
+        width: 70%;
+    }
+
+    .meal-text-parent {
+        height: 12rem;
+    }
+
+    .meal-text {
+        justify-content: center;
+        gap: 3rem;
+    }
+
+    .like-meals{
+        display: none;
+    }
+
+    .meals-row{
+        height: 223rem;
+    }
+
+    .dish {
+        flex-basis: 80%;
+        height: auto;
+    }
+
+    .lunch-text {
+        height: 37rem;
+    }
+
+    .lunch-row {
+        height: 122rem;
+    }
+}
+
+/* 320px */
+@media screen and (max-width:425px) and (min-width:320px) {
+    .current-page {
+        width: 100%;
+    }
+
+    .rest-data-section {
+        height: 70rem;
+    }
+
+    .data-row {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .logo-rate {
+        width: 100%;
+        height: 35rem;
+    }
+
+    .logo-heading{
+        font-size: 34px;
+    }
+
+    .logo-img {
+        width: 83%;
+    }
+
+    .logo-time{
+        width: 69%;
+        top: 5rem;
+    }
+
+    .logo-lunch {
+        width: 92%;
+        top: 12rem;
+    }
+
+    .meal-text-parent {
+        height: 12rem;
+    }
+
+    .meal-text {
+        justify-content: center;
+        gap: 3rem;
+    }
+
+    .like-meals{
+        display: none;
+    }
+
+    .meals-row{
+        height: 223rem;
+    }
+
+    .dish {
+        flex-basis: 80%;
+        height: auto;
+    }
+
+    .lunch-text {
+        height: 37rem;
+    }
+
+    .lunch-row {
+        height: 122rem;
+    }
 }
