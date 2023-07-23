@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import './RestCard.css'
+import Footer from '../UI/Footer'
 import restName from '../../assets/cafe-1.jpg'
 import logoImg from '../../assets/logo-img.jpg'
 import dish1 from '../../assets/dish-1.png'
@@ -11,23 +12,25 @@ import dish6 from '../../assets/dish-6.png'
 import dish7 from '../../assets/dish-7.png'
 import dish8 from '../../assets/dish-8.png'
 import dish9 from '../../assets/dish-9.png'
-const dishes = [
-    { image: dish1, title: 'Egg, kiwi and sauce chilli', price: '39' },
-    { image: dish2, title: 'Potatoes with chicken and dried fruits', price: '46' },
-    { image: dish3, title: 'Rice with shrimps and kiwi', price: '49' },
-    { image: dish4, title: 'Spaghetti with mushrooms and...', price: '49' },
-    { image: dish5, title: 'Sliced chicken, avocado and...', price: '39' },
-    { image: dish6, title: 'Veal meat, tomatoes and...', price: '49' },
-]
 
-const lunch = [
-    { image: dish7, title: 'Fruits with rice chips', price: '39' },
-    { image: dish8, title: 'Vegetables with rice chips', price: '35' },
-    { image: dish9, title: 'Chicken with vegetables and...', price: '45' },
-]
 
 
 function RestCard() {
+
+    const dishes = [
+        { image: dish1, title: 'Egg, kiwi and sauce chilli', price: '39' },
+        { image: dish2, title: 'Potatoes with chicken and dried fruits', price: '46' },
+        { image: dish3, title: 'Rice with shrimps and kiwi', price: '49' },
+        { image: dish4, title: 'Spaghetti with mushrooms and...', price: '49' },
+        { image: dish5, title: 'Sliced chicken, avocado and...', price: '39' },
+        { image: dish6, title: 'Veal meat, tomatoes and...', price: '49' },
+    ]
+
+    const lunch = [
+        { image: dish7, title: 'Fruits with rice chips', price: '39' },
+        { image: dish8, title: 'Vegetables with rice chips', price: '35' },
+        { image: dish9, title: 'Chicken with vegetables and...', price: '45' },
+    ]
     // const [count, setCount] = useState(0);
 
     const [dishesCount, setDishesCount] = useState(new Array(dishes.length).fill(0));
@@ -233,6 +236,7 @@ function RestCard() {
                     </div>
                 </div>
             </div>
+            <Footer />
         </>
     )
 }
