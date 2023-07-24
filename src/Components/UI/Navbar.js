@@ -3,8 +3,15 @@ import { NavLink } from 'react-router-dom';
 import Buttons from './Buttons'
 import logo from '../../assets/logo.png'
 import '../UI/Navbar.css'
+import checkImg from '../../assets/cafe-1.jpg'
 
 function Navbar() {
+
+    const [isSidebarOpen, setSidebarOpen] = useState(false);
+
+    const handleSidebarToggle = () => {
+        setSidebarOpen(!isSidebarOpen);
+    };
 
     const [isDropdownOpen, setDropdownOpen] = useState(false);
 
@@ -59,11 +66,28 @@ function Navbar() {
                     </div>
 
                     <div className="nav-right">
-                        <i className="bag-icon fa-solid fa-bag-shopping"></i>
+                        <i className="bag-icon fa-solid fa-bag-shopping" onClick={handleSidebarToggle}></i>
                         <Buttons text='ORDER NOW' className='nav-button' />
                     </div>
                 </div>
             </div>
+
+            {isSidebarOpen && (
+
+                <div className="sidebar open">
+                    <div className="sidebar-header">
+                        <h2 className='side-heading'>My Orders</h2>
+                        <i className="cross-icon fa-solid fa-times" onClick={handleSidebarToggle}></i>
+                    </div>
+                    <div className="sidebar-content">
+                        <div className="side-rest">
+                            <img src={checkImg} alt="" className="side-img" />
+                            <h6 className="side-rest-head">Kennigton Lane Cafe</h6>
+                        </div>
+                        
+                    </div>
+                </div>
+            )}
         </>
     )
 }
