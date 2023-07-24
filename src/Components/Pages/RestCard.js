@@ -181,7 +181,9 @@ function RestCard() {
                                     </div>
 
                                     <div className="dish-add">
-                                        <button className="btn-cart">Add to Basket <i class="fa-solid fa-bag-shopping"></i></button>
+                                        <button 
+                                        className="btn-cart">Add to Basket 
+                                        <i class="fa-solid fa-bag-shopping"></i></button>
                                     </div>
                                 </div>
                             </div>
