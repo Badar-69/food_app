@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { useAppContext } from '../../Context/Context';
 import './RestCard.css'
 import Footer from '../UI/Footer'
 import restName from '../../assets/cafe-1.jpg'
@@ -16,6 +17,8 @@ import dish9 from '../../assets/dish-9.png'
 
 
 function RestCard() {
+    const { addToSidebar } = useAppContext();
+
 
     const dishes = [
         { image: dish1, title: 'Egg, kiwi and sauce chilli', price: '39' },
@@ -181,9 +184,12 @@ function RestCard() {
                                     </div>
 
                                     <div className="dish-add">
-                                        <button 
-                                        className="btn-cart">Add to Basket 
-                                        <i class="fa-solid fa-bag-shopping"></i></button>
+                                        <button
+                                            className="btn-cart"
+                                            onClick={() => addToSidebar({ image: dish.image, title: dish.title, price: dish.price })}
+                                        >
+                                            Add to Basket <i className="fa-solid fa-bag-shopping"></i>
+                                        </button>
                                     </div>
                                 </div>
                             </div>
@@ -196,11 +202,11 @@ function RestCard() {
                         </div>
 
                         <div className="lunch-row">
-                            {lunch.map((lunch, index) => (
+                            {lunch.map((dish, index) => (
                                 <div className="dish">
-                                    <img className="dish-img" src={lunch.image} alt="dish pic" />
+                                    <img className="dish-img" src={dish.image} alt="dish pic" />
                                     <div className="dish-details">
-                                        <h3 className="dish-heading">{lunch.title}</h3>
+                                        <h3 className="dish-heading">{dish.title}</h3>
 
                                         <div className="dish-icons">
                                             <a className='dish-tags' href="/food_app">Breakfast</a>
@@ -210,7 +216,7 @@ function RestCard() {
                                         </div>
 
                                         <div className="dish-price">
-                                            <h2 className="price-heading">${lunch.price}</h2>
+                                            <h2 className="price-heading">${dish.price}</h2>
                                             <div className="price-increase">
                                                 <button
                                                     onClick={() => handleDecrement(index)}
@@ -229,7 +235,12 @@ function RestCard() {
                                         </div>
 
                                         <div className="dish-add">
-                                            <button className="btn-cart">Add to Basket <i class="fa-solid fa-bag-shopping"></i></button>
+                                            <button
+                                                className="btn-cart"
+                                                onClick={() => addToSidebar({ image: dish.image, title: dish.title, price: dish.price })}
+                                            >
+                                                Add to Basket <i className="fa-solid fa-bag-shopping"></i>
+                                            </button>
                                         </div>
                                     </div>
                                 </div>
