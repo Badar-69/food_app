@@ -1,11 +1,14 @@
 import React, { useState } from 'react';
 import { NavLink } from 'react-router-dom';
+import { useAppContext } from '../../Context/Context';
 import Buttons from './Buttons'
 import logo from '../../assets/logo.png'
 import '../UI/Navbar.css'
 import checkImg from '../../assets/cafe-1.jpg'
 
 function Navbar() {
+    const { sidebarDishes } = useAppContext();
+
 
     const [isSidebarOpen, setSidebarOpen] = useState(false);
 
@@ -84,7 +87,39 @@ function Navbar() {
                             <img src={checkImg} alt="" className="side-img" />
                             <h6 className="side-rest-head">Kennigton Lane Cafe</h6>
                         </div>
-                        
+                        {sidebarDishes.map((dish, index) => (
+                            <div className="side-item" key={index}>
+                                <div className="item-details">
+                                    <img src={dish.image} alt="" className="item-img" />
+                                    <h6 className="item-name">{dish.title}</h6>
+                                    <p className='item-price'>${dish.price}</p>
+                                </div>
+
+                                <div className="item-pr">
+                                    <h4 className="item-heading">${dish.price}</h4>
+
+                                    <div className="item-small">
+                                        <p className="item-sum">Sum</p>
+                                        <span className="span-item-quantity">Quantity : 1</span>
+                                    </div>
+                                </div>
+                                <hr className='line' />
+
+
+                            </div>
+
+                        ))}
+                        <div className="total-sec">
+                            <div className="total-price">
+                                <p className="total-para">Total Order:</p>
+                                <p className="total-order">$137</p>
+                            </div>
+
+                            <div className="total-price">
+                                <p className="total-para">Total Pay:</p>
+                                <p className="total-pay">$137</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             )}
