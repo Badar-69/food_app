@@ -14,7 +14,7 @@ export function AppProvider({ children }) {
   };
 
   return (
-    <AppContext.Provider value={{ sidebarDishes, addToSidebar }}>
+    <AppContext.Provider value={{ sidebarDishes, addToSidebar, setSidebarDishes }}>
       {children}
     </AppContext.Provider>
   );
