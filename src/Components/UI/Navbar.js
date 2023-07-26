@@ -1,14 +1,21 @@
 import React, { useState } from 'react';
 import { NavLink } from 'react-router-dom';
 import { useAppContext } from '../../Context/Context';
+import { useCartContext } from '../../Context/Contextcheck';
 import Buttons from './Buttons'
 import logo from '../../assets/logo.png'
 import '../UI/Navbar.css'
 import checkImg from '../../assets/cafe-1.jpg'
 
 function Navbar() {
-    const { sidebarDishes } = useAppContext();
+    const { sidebarDishes, setSidebarDishes } = useAppContext();
 
+    const { addToCart } = useCartContext();
+
+    const handleCheckout = () => {
+        addToCart(sidebarDishes); // Add items in the sidebar to the cart
+        setSidebarDishes([]); // Clear the sidebar by updating its state
+      };
 
     const [isSidebarOpen, setSidebarOpen] = useState(false);
 
@@ -22,6 +29,11 @@ function Navbar() {
         setDropdownOpen(!isDropdownOpen);
     };
 
+    // Adding price
+    const calculateTotalPrice = () => {
+        const totalPrice = sidebarDishes.reduce((acc, dish) => acc + Number(dish.price), 0);
+        return totalPrice.toFixed(2); // Round to two decimal places
+    };
 
     return (
         <>
@@ -112,15 +124,23 @@ function Navbar() {
                         <div className="total-sec">
                             <div className="total-price">
                                 <p className="total-para">Total Order:</p>
-                                <p className="total-order">$137</p>
+                                <p className="total-order">${calculateTotalPrice()}</p>
                             </div>
 
                             <div className="total-price">
                                 <p className="total-para">Total Pay:</p>
-                                <p className="total-pay">$137</p>
+                                <p className="total-pay">${calculateTotalPrice()}</p>
                             </div>
                         </div>
+
+                        <div className="nav-btn">
+                            <button className="btn-side" onClick={handleCheckout}>
+                                Checkout
+                            </button>
+                        </div>
+
                     </div>
+
                 </div>
             )}
         </>
