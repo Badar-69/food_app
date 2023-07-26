@@ -43,6 +43,8 @@
 
 .check-row-one {
     width: 40%;
+    max-height: 100vh;
+    overflow-y: auto;
 }
 
 .title-checkout {
@@ -112,7 +114,7 @@
     font-size: 48px;
 }
 
-.line{
+.line {
     height: 1px;
     background-color: #cfcfcf;
     border: none;
@@ -145,11 +147,11 @@
     gap: 1rem;
 }
 
-.check-info{
+.check-info {
     width: 89%;
 }
 
-.info-heading{
+.info-heading {
     font-size: 24px;
 }
 
@@ -178,7 +180,7 @@
     width: 89%;
 }
 
-.address{
+.address {
     font-size: 24px;
 }
 
@@ -264,89 +266,97 @@
     outline: 2px solid #f29f05;
 }
 
+.check-cross{
+    float: right;
+    font-size: 20px;
+    color: #cfcfcf;
+    margin-top: 10px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
 
 /* 1024px */
 @media screen and (max-width:1024px) {
-    .check-section{
+    .check-section {
         height: 160rem;
     }
-    
-    .title-checkout{
+
+    .title-checkout {
         justify-content: center;
     }
 
-    .check-row{
+    .check-row {
         flex-direction: column;
     }
 
-    .check-row-one{
+    .check-row-one {
         width: 100%;
     }
 
-    .check-rest{
+    .check-rest {
         justify-content: space-around;
     }
 
-    .check-meal{
+    .check-meal {
         justify-content: space-around;
     }
-    
-    .check-price{
+
+    .check-price {
         width: 100%;
         justify-content: center;
     }
 
-    .check-row-two{
+    .check-row-two {
         width: 95%;
     }
 }
 
 /* 450px */
 @media screen and (max-width:450px) and (min-width:320px) {
-    .check-section{
+    .check-section {
         height: 160rem;
     }
 
-    .check-text{
+    .check-text {
         width: 91%;
     }
 
-    .title-num{
+    .title-num {
         margin-left: 5px;
     }
-    
-    .title-checkout{
+
+    .title-checkout {
         justify-content: center;
     }
 
-    .check-row{
+    .check-row {
         flex-direction: column;
     }
 
-    .check-row-one{
+    .check-row-one {
         width: 100%;
     }
 
-    .check-rest{
+    .check-rest {
         width: 75%;
         justify-content: space-around;
     }
 
-    .check-price-heading{
+    .check-price-heading {
         width: 55%;
     }
 
-    .check-meal{
+    .check-meal {
         justify-content: space-around;
     }
-    
-    .check-price{
+
+    .check-price {
         width: 100%;
         justify-content: center;
     }
 
-    .check-row-two{
+    .check-row-two {
         width: 95%;
     }
 }
-
