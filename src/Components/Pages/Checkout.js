@@ -1,13 +1,26 @@
 import React from 'react'
 import './Checkout.css'
+import { useCartContext } from '../../Context/Contextcheck';
 import Footer from '../UI/Footer'
 import checkImg from '../../assets/cafe-1.jpg'
-import mealImg from '../../assets/dish-4.png'
 import visaImg from '../../assets/visa.png'
 import masterImg from '../../assets/mastercard.png'
 import payImg from '../../assets/paypal.png'
 
 function Checkout() {
+    const { cartItems, removeFromCart } = useCartContext();
+
+
+    const calculateTotalPrice = () => {
+        const totalPrice = cartItems.reduce((acc, dish) => acc + Number(dish.price), 0);
+        return totalPrice.toFixed(2); // Round to two decimal places
+    };
+
+    const handleRemoveDish = (index) => {
+        removeFromCart(index);
+    };
+
+
     return (
         <>
             <div className="check-section">
@@ -26,7 +39,7 @@ function Checkout() {
                     <div className="check-row">
                         <div className="check-row-one">
                             <div className="title-checkout">
-                                <h3 className="title-heading">Your Order: <span className="title-num">3</span></h3>
+                                <h3 className="title-heading">Your Order: <span className="title-num">{cartItems.length}</span></h3>
                             </div>
 
                             <div className="check-rest">
@@ -34,53 +47,51 @@ function Checkout() {
                                 <h6 className="check-rest-name">Kennigton Lane Cafe</h6>
                             </div>
 
-                            <div className="check-meal">
-                                <img src={mealImg} alt="" className="check-meal-img" />
-                                <h4 className="check-meal-heading">Pasta, kiwi and sauce chilli</h4>
-                                <span className="meal-price">$39</span>
-                            </div>
+                            {cartItems.map((item, index) => (
+                                <div className="meal-parent">
+                                     <i
+                                        className="check-cross fa-solid fa-times remove-dish-icon"
+                                        onClick={() => handleRemoveDish(index)}
+                                    ></i>
+                                    <div key={index} className="check-meal">
 
-                            <div className="check-price">
-                                <h3 className="check-price-heading">$39</h3>
-                                <div className="check-quan">
-                                    <button
-                                        className={'dish-btn'}
-                                    >
-                                        -
-                                    </button>
+                                        <img src={item.image} alt="" className="check-meal-img" />
+                                        <h4 className="check-meal-heading">{item.title}</h4>
+                                        <span className="meal-price">${item.price}</span>
 
-                                    <input type="number" min="0" value='1' readOnly id="dish-input" />
+                                    </div>
+                                   
+                                    <div className="check-price">
+                                        <h3 className="check-price-heading">${item.price}</h3>
+                                        <div className="check-quan">
+                                            <button
+                                                className={'dish-btn'}
+                                            >
+                                                -
+                                            </button>
 
-                                    <button className="dish-btn">
-                                        +
-                                    </button>
+                                            <input type="number" min="0" value='1' readOnly id="dish-input" />
+
+                                            <button className="dish-btn">
+                                                +
+                                            </button>
+                                        </div>
+                                    </div>
+                                    <hr className='line' />
+
+                                </div>
+                            ))}
+                            <div className="total-sec">
+                                <div className="total-price">
+                                    <p className="total-para">Total Order:</p>
+                                    <p className="total-order">${calculateTotalPrice()}</p>
+                                </div>
+
+                                <div className="total-price">
+                                    <p className="total-para">Total Pay:</p>
+                                    <p className="total-pay">${calculateTotalPrice()}</p>
                                 </div>
                             </div>
-                            <hr className='line' />
-
-                            <div className="check-meal">
-                                <img src={mealImg} alt="" className="check-meal-img" />
-                                <h4 className="check-meal-heading">Pasta, kiwi and sauce chilli</h4>
-                                <span className="meal-price">$39</span>
-                            </div>
-
-                            <div className="check-price">
-                                <h3 className="check-price-heading">$39</h3>
-                                <div className="check-quan">
-                                    <button
-                                        className={'dish-btn'}
-                                    >
-                                        -
-                                    </button>
-
-                                    <input type="number" min="0" value='1' readOnly id="dish-input" />
-
-                                    <button className="dish-btn">
-                                        +
-                                    </button>
-                                </div>
-                            </div>
-                            <hr className='line' />
                         </div>
 
                         <div className="check-row-two">
