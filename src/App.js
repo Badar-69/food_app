@@ -7,6 +7,7 @@ import AboutUs from "./Components/Pages/AboutUs";
 import Restaurant from "./Components/Pages/Restaurant";
 import RestCard from "./Components/Pages/RestCard";
 import Checkout from "./Components/Pages/Checkout";
+import Blog from "./Components/Pages/Blog";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
             <Route path="/restaurants" element={<Restaurant />} />
             <Route path="/restaurants/restaurant_card" element={<RestCard />} />
             <Route path="/restaurants/checkout" element={<Checkout />} />
+            <Route path="/pages/blog" element={<Blog />} />
           </Routes>
         </Router>
       </AppProvider>
