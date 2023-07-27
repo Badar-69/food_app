@@ -144,7 +144,7 @@ function RestCard() {
                             </div>
 
                             <div className="like-meals">
-                                <i class="meal-icon fa-solid fa-heart"></i>
+                                <i className="meal-icon fa-solid fa-heart"></i>
                                 <a className='meal-para' href="/food_app">Like Meals</a>
                             </div>
                         </div>
@@ -160,8 +160,8 @@ function RestCard() {
                                     <div className="dish-icons">
                                         <a className='dish-tags' href="/food_app">Breakfast</a>
                                         <a className='dish-tags' href="/food_app">Brunch</a>
-                                        <i class="dish-icons fa-solid fa-circle-info"></i>
-                                        <i class="dish-icons fa-solid fa-heart"></i>
+                                        <i className="dish-icons fa-solid fa-circle-info"></i>
+                                        <i className="dish-icons fa-solid fa-heart"></i>
                                     </div>
 
                                     <div className="dish-price">
