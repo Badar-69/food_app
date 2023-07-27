@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { NavLink } from 'react-router-dom';
+import { NavLink, Link } from 'react-router-dom';
 import { useAppContext } from '../../Context/Context';
 import { useCartContext } from '../../Context/Contextcheck';
 import Buttons from './Buttons'
@@ -15,7 +15,7 @@ function Navbar() {
     const handleCheckout = () => {
         addToCart(sidebarDishes); // Add items in the sidebar to the cart
         setSidebarDishes([]); // Clear the sidebar by updating its state
-      };
+    };
 
     const [isSidebarOpen, setSidebarOpen] = useState(false);
 
@@ -27,6 +27,11 @@ function Navbar() {
 
     const handleDropdownToggle = () => {
         setDropdownOpen(!isDropdownOpen);
+    };
+
+    const [isPagesDropdownOpen, setPagesDropdownOpen] = useState(false);
+    const handlePagesDropdownToggle = () => {
+        setPagesDropdownOpen(!isPagesDropdownOpen);
     };
 
     // Adding price
@@ -71,9 +76,41 @@ function Navbar() {
                             )}
 
                         </NavLink>
-                        <NavLink to="/pages" className="pg-links" activeClassName="active">
+
+                        <Link
+                            to=''
+                            className="pg-pages pg-links"
+                            onMouseEnter={handlePagesDropdownToggle}
+                            onMouseLeave={handlePagesDropdownToggle}
+                        >
                             Pages
-                        </NavLink>
+                            {isPagesDropdownOpen && (
+                                <div className="dropdown-list">
+                                    <NavLink to="/pages/blog" className="dropdown-link-item">
+                                        Blog
+                                    </NavLink>
+                                    <NavLink to="/pages/single_blog" className="dropdown-link-item">
+                                        Single Blog
+                                    </NavLink>
+                                    <NavLink to="/pages/services" className="dropdown-link-item">
+                                        Serivces
+                                    </NavLink>
+                                    <NavLink to="/pages/faq" className="dropdown-link-item">
+                                        FAQ
+                                    </NavLink>
+                                    <NavLink to="/pages/pricing_table" className="dropdown-link-item">
+                                        Pricing Table
+                                    </NavLink>
+                                    <NavLink to="/pages/become_a_partner" className="dropdown-link-item">
+                                        Become a Partner
+                                    </NavLink>
+                                    <NavLink to="/pages/404" className="dropdown-link-item">
+                                        404
+                                    </NavLink>
+                                    {/* Add more NavLink elements for other pages as needed */}
+                                </div>
+                            )}
+                        </Link>
                         <NavLink to="/contacts" className="pg-links" activeClassName="active">
                             Contacts
                         </NavLink>
