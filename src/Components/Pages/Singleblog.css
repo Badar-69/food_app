@@ -1,0 +1,97 @@
+.single-section{
+    height: 60rem;
+}
+
+
+.single-row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.sing-one {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.sing-text {
+    width: 40%;
+    margin-top: 35px;
+}
+
+.tags-blog {
+    width: auto;
+    height: 2rem;
+    border-radius: 5px;
+    margin-right: .5rem;
+    padding: .3rem .9rem;
+    background-color: #f29f05;
+    color: #fff;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.sing-heading {
+    font-size: 43px;
+    margin-top: 13px;
+    line-height: 1.2;
+}
+
+.sing-icons {
+    color: #cfcfcf;
+    margin-right: 7px;
+}
+
+.sing-span {
+    color: #cfcfcf;
+    margin-right: 10px;
+}
+
+.sing-img {
+    width: 20%;
+}
+
+.sing-blog-img {
+    width: 30%;
+}
+
+.girl-name {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+
+.sing-para {
+    color: #787878;
+    width: 50%;
+}
+
+.sing-second {
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.full-blog-img {
+    width: 90%;
+}
+
+/* Text Section */
+.text-section{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.only-text{
+    width: 58%;
+    color: #787878;
+}
+
+.color{
+    color: #f29f05;
+}
