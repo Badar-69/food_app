@@ -8,6 +8,7 @@ import Restaurant from "./Components/Pages/Restaurant";
 import RestCard from "./Components/Pages/RestCard";
 import Checkout from "./Components/Pages/Checkout";
 import Blog from "./Components/Pages/Blog";
+import Singleblog from "./Components/Pages/Singleblog";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
             <Route path="/restaurants/restaurant_card" element={<RestCard />} />
             <Route path="/restaurants/checkout" element={<Checkout />} />
             <Route path="/pages/blog" element={<Blog />} />
+            <Route path="/pages/single_blog" element={<Singleblog />} />
           </Routes>
         </Router>
       </AppProvider>
