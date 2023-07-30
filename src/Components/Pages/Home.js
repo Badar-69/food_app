@@ -97,7 +97,7 @@ function Home() {
                 <div className="work-cards">
                     <div className="wk-card wk-card1">
                         <img src={card1} alt="" />
-                        <div className="card-text">
+                        <div className="crd-text">
                             <h4 className='card-heading'><span className='work-span'>01</span> Select Restaurant
                             </h4>
                             <p className="card-para">
@@ -108,7 +108,7 @@ function Home() {
 
                     <div className="wk-card wk-card2">
                         <img src={card2} alt="" />
-                        <div className="card-text">
+                        <div className="crd-text">
                             <h4 className='card-heading'><span className='work-span'>02</span> Select menu</h4>
                             <p className="card-para">
                                 Eu mi bibendum neque egestas congue quisque. Nulla facilisi morbi tempus iaculis urna id volutpat lacus. Odio ut sem nulla pharetra diam sit amet.
@@ -118,7 +118,7 @@ function Home() {
 
                     <div className="wk-card wk-card3">
                         <img src={card3} alt="" />
-                        <div className="card-text">
+                        <div className="crd-text">
                             <h4 className='card-heading'><span className='work-span'>03</span> Wait for delivery</h4>
                             <p className="card-para">
                                 Nunc lobortis mattis aliquam faucibus. Nibh ipsum consequat nisl vel pretium lectus quam id leo. A scelerisque purus semper eget. Tincidunt arcu non.
