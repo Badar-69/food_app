@@ -10,6 +10,8 @@ import Checkout from "./Components/Pages/Checkout";
 import Blog from "./Components/Pages/Blog";
 import Singleblog from "./Components/Pages/Singleblog";
 import Services from "./Components/Pages/Services";
+import Faq from "./Components/Pages/Faq";
+import Pricingtable from "./Components/Pages/PrcingTable";
 
 function App() {
   return (
@@ -26,6 +28,8 @@ function App() {
             <Route path="/pages/blog" element={<Blog />} />
             <Route path="/pages/single_blog" element={<Singleblog />} />
             <Route path="/pages/services" element={<Services />} />
+            <Route path="/pages/faq" element={<Faq />} />
+            <Route path="/pages/pricing_table" element={<Pricingtable />} />
           </Routes>
         </Router>
       </AppProvider>
