@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/food_app/static/css/main.316babe6.css",
-    "main.js": "/food_app/static/js/main.cb965a81.js",
+    "main.css": "/food_app/static/css/main.6345186e.css",
+    "main.js": "/food_app/static/js/main.b43027cb.js",
     "static/media/bg-img.jpg": "/food_app/static/media/bg-img.f63992e29c4249a449eb.jpg",
     "static/media/dish-3.png": "/food_app/static/media/dish-3.fa28647f8705d21779ac.png",
     "static/media/mid-img.jpg": "/food_app/static/media/mid-img.8bbf6950ef662bbcdf56.jpg",
@@ -39,6 +39,7 @@
     "static/media/dish-8.png": "/food_app/static/media/dish-8.5bee911b07046a390a0e.png",
     "static/media/dish-1.png": "/food_app/static/media/dish-1.408f2bc80b4b2a0f8f78.png",
     "static/media/news-2.jpg": "/food_app/static/media/news-2.d09d8a347f362fe19a28.jpg",
+    "static/media/faq.jpg": "/food_app/static/media/faq.b468cd51dcb72ff57c23.jpg",
     "static/media/part-2.jpg": "/food_app/static/media/part-2.75c31a32d3a2129740d3.jpg",
     "static/media/part-1.jpg": "/food_app/static/media/part-1.ec5beab1a5feff7d3770.jpg",
     "static/media/news-5.jpg": "/food_app/static/media/news-5.74ba1c0802ee40bb2729.jpg",
@@ -57,11 +58,11 @@
     "static/media/trust-1.png": "/food_app/static/media/trust-1.40ddbf19cea8bbdac8e1.png",
     "static/media/trust-5.png": "/food_app/static/media/trust-5.995ca1ccf3c972a49495.png",
     "index.html": "/food_app/index.html",
-    "main.316babe6.css.map": "/food_app/static/css/main.316babe6.css.map",
-    "main.cb965a81.js.map": "/food_app/static/js/main.cb965a81.js.map"
+    "main.6345186e.css.map": "/food_app/static/css/main.6345186e.css.map",
+    "main.b43027cb.js.map": "/food_app/static/js/main.b43027cb.js.map"
   },
   "entrypoints": [
-    "static/css/main.316babe6.css",
-    "static/js/main.cb965a81.js"
+    "static/css/main.6345186e.css",
+    "static/js/main.b43027cb.js"
   ]
 }
