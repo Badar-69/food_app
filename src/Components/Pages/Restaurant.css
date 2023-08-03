@@ -47,7 +47,7 @@
     width: 88%;
     height: 25rem;
     background-repeat: no-repeat;
-    /* background-size: contain; */
+    background-size: cover;
 }
 
 .bg-top {
