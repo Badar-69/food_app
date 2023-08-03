@@ -1,7 +1,10 @@
 {
   "files": {
-    "main.css": "/food_app/static/css/main.6345186e.css",
-    "main.js": "/food_app/static/js/main.b43027cb.js",
+    "main.css": "/food_app/static/css/main.b5297729.css",
+    "main.js": "/food_app/static/js/main.a16c61bd.js",
+    "static/media/table1.png": "/food_app/static/media/table1.452ae8be4a75f5f723e0.png",
+    "static/media/table2.png": "/food_app/static/media/table2.7d404eb6d54246016fee.png",
+    "static/media/table3.png": "/food_app/static/media/table3.b589c612f334a3d391f7.png",
     "static/media/bg-img.jpg": "/food_app/static/media/bg-img.f63992e29c4249a449eb.jpg",
     "static/media/dish-3.png": "/food_app/static/media/dish-3.fa28647f8705d21779ac.png",
     "static/media/mid-img.jpg": "/food_app/static/media/mid-img.8bbf6950ef662bbcdf56.jpg",
@@ -42,8 +45,11 @@
     "static/media/faq.jpg": "/food_app/static/media/faq.b468cd51dcb72ff57c23.jpg",
     "static/media/part-2.jpg": "/food_app/static/media/part-2.75c31a32d3a2129740d3.jpg",
     "static/media/part-1.jpg": "/food_app/static/media/part-1.ec5beab1a5feff7d3770.jpg",
+    "static/media/blurtab.png": "/food_app/static/media/blurtab.903bb894006d50ece476.png",
     "static/media/news-5.jpg": "/food_app/static/media/news-5.74ba1c0802ee40bb2729.jpg",
+    "static/media/blurtab3.png": "/food_app/static/media/blurtab3.19250a09282180f67dd6.png",
     "static/media/post-3.jpg": "/food_app/static/media/post-3.5cd2cfc497b186b5bf5c.jpg",
+    "static/media/blurtab2.png": "/food_app/static/media/blurtab2.e78b14715d5b650bc23d.png",
     "static/media/miss-img.png": "/food_app/static/media/miss-img.87c64ffdc7b207df6141.png",
     "static/media/sub-img.png": "/food_app/static/media/sub-img.0f937d543029494abd10.png",
     "static/media/trust-3.png": "/food_app/static/media/trust-3.5029af6e0d8e30556711.png",
@@ -58,11 +64,11 @@
     "static/media/trust-1.png": "/food_app/static/media/trust-1.40ddbf19cea8bbdac8e1.png",
     "static/media/trust-5.png": "/food_app/static/media/trust-5.995ca1ccf3c972a49495.png",
     "index.html": "/food_app/index.html",
-    "main.6345186e.css.map": "/food_app/static/css/main.6345186e.css.map",
-    "main.b43027cb.js.map": "/food_app/static/js/main.b43027cb.js.map"
+    "main.b5297729.css.map": "/food_app/static/css/main.b5297729.css.map",
+    "main.a16c61bd.js.map": "/food_app/static/js/main.a16c61bd.js.map"
   },
   "entrypoints": [
-    "static/css/main.6345186e.css",
-    "static/js/main.b43027cb.js"
+    "static/css/main.b5297729.css",
+    "static/js/main.a16c61bd.js"
   ]
 }
