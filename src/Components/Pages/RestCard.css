@@ -2,7 +2,7 @@
     height: 50rem;
     background-image: url('../../assets/background.png');
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
 }
 
 .current-page {
