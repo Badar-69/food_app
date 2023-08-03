@@ -232,7 +232,7 @@ img.off {
     height: 40rem;
     background-image: url('../../assets/background.png');
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
 }
 
 .count-row {
