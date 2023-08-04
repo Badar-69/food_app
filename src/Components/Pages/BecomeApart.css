@@ -1,0 +1,171 @@
+.courier-parent {
+    height: 60rem;
+}
+
+.courier-section {
+    background-image: url('../../assets/become-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: top;
+    height: 30rem;
+}
+
+.courier-row {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    /* align-items: center; */
+}
+
+.courier-row-one {
+    width: 35%;
+    position: relative;
+    top: 5rem;
+}
+
+.courier-head {
+    font-size: 48px;
+    color: #fff;
+    margin-top: 4px;
+    margin-bottom: 10px;
+}
+
+.courier-para {
+    color: #fff;
+}
+
+.courier-row-two {
+    width: 45%;
+}
+
+.courier-form {
+    width: 85%;
+    height: 45rem;
+    padding: 25px;
+    box-sizing: border-box;
+    background-color: #fff;
+    box-shadow: -1px 15px 26px -4px rgb(161 151 151 / 15%);
+    border-radius: 30px;
+}
+
+.form-textarea{
+    height: 10rem;
+}
+
+.form-heading {
+    font-size: 36px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.form-para {
+    color: #787878;
+}
+
+.name-form {
+    width: 95%;
+    height: 5rem;
+}
+
+.form-name {
+    width: 100%;
+    height: 3.5rem;
+    border: .5px solid #cfcfcf;
+    border-radius: 6px;
+}
+
+.form-name::placeholder {
+    font-size: 16px;
+    padding-left: 15px;
+    color: #cfcfcf;
+    font-family: 'Poppins', sans-serif;
+}
+
+.textarea {
+    resize: none;
+    border: .5px solid #cfcfcf;
+    border-radius: 6px;
+}
+
+.textarea::placeholder {
+    font-family: 'Poppins', sans-serif;
+    color: #cfcfcf;
+    padding-left: 15px;
+    font-size: 16px;
+}
+
+.form-btn{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-form{
+    width: 90%;
+    height: 3.3rem;
+    font-size: 17px;
+}
+
+.benefits-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 21rem;
+}
+
+.ben-text{
+    width: 70%;
+}
+
+.ben-heading{
+    font-size: 42px;
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+.ben-para{
+    color: #787878;
+}
+
+/* ben card section */
+.ben-cards-section{
+    height: 40rem;
+}
+
+.ben-card-row{
+    display: flex;
+    width: 100%;
+    gap: 3rem;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.ben-card{
+    width: 29%;
+    border: 1px solid #F2F2F2;
+    border-radius: 20px;
+}
+
+.ben-card-heading{
+    display: flex;
+    width: 90%;
+    gap: 1.5rem;
+    font-size: 20px;
+    margin-left: 30px;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.ben-icon{
+    color: #f29f05;
+    font-size: 30px;
+}
+
+.ben-card-para{
+    width: 75%;
+    margin-left: 30px;
+    color: #787878;
+}

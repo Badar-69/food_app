@@ -12,6 +12,7 @@ import Singleblog from "./Components/Pages/Singleblog";
 import Services from "./Components/Pages/Services";
 import Faq from "./Components/Pages/Faq";
 import Pricingtable from "./Components/Pages/PrcingTable";
+import BecApart from './Components/Pages/BecomeApart'
 
 function App() {
   return (
@@ -30,6 +31,7 @@ function App() {
             <Route path="/pages/services" element={<Services />} />
             <Route path="/pages/faq" element={<Faq />} />
             <Route path="/pages/pricing_table" element={<Pricingtable />} />
+            <Route path="/pages/become_a_partner" element={<BecApart />} />
           </Routes>
         </Router>
       </AppProvider>
