@@ -13,6 +13,7 @@ import Services from "./Components/Pages/Services";
 import Faq from "./Components/Pages/Faq";
 import Pricingtable from "./Components/Pages/PrcingTable";
 import BecApart from './Components/Pages/BecomeApart'
+import Errorpg from "./Components/Pages/Errorpg";
 
 function App() {
   return (
@@ -32,6 +33,7 @@ function App() {
             <Route path="/pages/faq" element={<Faq />} />
             <Route path="/pages/pricing_table" element={<Pricingtable />} />
             <Route path="/pages/become_a_partner" element={<BecApart />} />
+            <Route path="/pages/404" element={<Errorpg/>} />
           </Routes>
         </Router>
       </AppProvider>
