@@ -169,3 +169,210 @@
     margin-left: 30px;
     color: #787878;
 }
+
+/* Media Queries */
+@media screen and (max-width:990px) and (min-width:320px) {
+    .courier-parent{
+        height: 80rem;
+    }
+
+    .courier-row{
+        flex-direction: column;
+        align-items: center;
+        /* justify-content: space-evenly; */
+    }
+
+    .courier-row-one{
+        top: 0;
+        width: 60%;
+    }
+
+    .courier-text{
+        margin-bottom: 55px;
+    }
+
+    .courier-head{
+        margin-top: 50px;
+    }
+
+    .courier-row-two{
+        width: 80%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .benefits-section{
+        height: 80rem;
+        width: 100%;
+    }
+
+    .ben-cards-section{
+        height: 56rem;
+    }
+
+    .ben-card{
+        width: 40%;
+    }
+}
+
+/* 768px */
+@media screen and (max-width:766px) and (min-width:320px) {
+    .courier-parent{
+        height: 80rem;
+    }
+
+    .courier-row{
+        flex-direction: column;
+        align-items: center;
+        /* justify-content: space-evenly; */
+    }
+
+    .courier-row-one{
+        top: 0;
+        width: 90%;
+    }
+
+    .courier-text{
+        margin-bottom: 55px;
+    }
+
+    .courier-head{
+        margin-top: 50px;
+    }
+
+    .courier-row-two{
+        width: 95%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .benefits-section{
+        height: 80rem;
+        width: 100%;
+    }
+
+    .ben-text{
+        width: 84%;
+    }
+
+    .ben-cards-section{
+        height: 90rem;
+    }
+
+    .ben-card-row{
+        flex-direction: column;
+    }
+
+    .ben-card{
+        width: 80%;
+    }
+}
+
+/* 600px */
+@media screen and (max-width:600px) and (min-width:320px) {
+    .courier-parent{
+        height: 90rem;
+    }
+
+    .courier-row{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .courier-row-one{
+        top: 0;
+        width: 100%;
+    }
+
+    .courier-text{
+        margin-bottom: 55px;
+    }
+
+    .courier-head{
+        margin-top: 50px;
+    }
+
+    .courier-row-two{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .benefits-section{
+        height: 93rem;
+        width: 100%;
+    }
+
+    .ben-text{
+        width: 84%;
+    }
+
+    .ben-cards-section{
+        height: 95rem;
+    }
+
+    .ben-card-row{
+        flex-direction: column;
+    }
+
+    .ben-card{
+        width: 80%;
+    }
+}
+
+
+/* 450px */
+@media screen and (max-width:450px) and (min-width:320px) {
+    .courier-parent{
+        height: 90rem;
+    }
+
+    .courier-row{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .courier-row-one{
+        top: 0;
+        width: 100%;
+    }
+
+    .courier-text{
+        margin-bottom: 55px;
+    }
+
+    .courier-head{
+        margin-top: 50px;
+    }
+
+    .courier-row-two{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .form-textarea{
+        width: 95%;
+    }
+
+    .benefits-section{
+        height: 93rem;
+        width: 100%;
+    }
+
+    .ben-text{
+        width: 90%;
+    }
+
+    .ben-cards-section{
+        height: 105rem;
+    }
+
+    .ben-card-row{
+        flex-direction: column;
+    }
+
+    .ben-card{
+        width: 80%;
+    }
+}
