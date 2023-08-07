@@ -310,6 +310,36 @@
 }
 
 /* Media Qureies */
+@media screen and (max-width:1920px) and (min-width:1500px){
+    .rest-data-section{
+        height: 61rem;
+    }
+
+    .data-row{
+        align-items: center;
+        height: 40rem;
+    }
+
+    .logo-img{
+        width: 28%;
+    }
+
+    .meal-btns{
+        width: 37%;
+    }
+
+    .dish{
+        width: 24%;
+        height: 43rem;
+    }
+
+    .lunch-row{
+        height: 55rem;
+    }
+}
+
+
+
 /* 1024px */
 @media screen and (max-width:1024px) {
     .logo-lunch {
