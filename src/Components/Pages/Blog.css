@@ -126,9 +126,23 @@
 }
 
 /* Media Queries */
-@media screen and (max-width:1920px) {
+@media screen and (max-width:1920px) and (min-width:1500px) {
     .blog-row{
         align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .blog-row-one{
+        width: 24%;
+    }
+
+    .post-row{
+        justify-content: center;
+        gap: 1rem;
+    }
+
+    .news-child{
+        width: 24.5%;
     }
     
 }
