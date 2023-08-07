@@ -200,16 +200,25 @@
 }
 
 /* Media Queries  */
-@media screen and (min-width:1920px) {
-    .join-text{
+@media screen and (min-width:1920px) and (min-width:1500px){
+    .join-row {
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .join-img::before{
+        height: 34rem;
+    }
+
+    .join-text {
         width: 25%;
     }
 
-    .a-letter{
+    .a-letter {
         width: 7%;
     }
 
-    .btn-quest{
+    .btn-quest {
         width: 12%;
     }
 }
@@ -240,33 +249,34 @@
         height: 50rem;
     }
 
-    .join-row{
+    .join-row {
         flex-direction: column;
         align-items: center;
     }
 
-    .join-text{
+    .join-text {
         width: 70%;
     }
 
-    .join-img{
+    .join-img {
         width: 70%;
     }
 
     .join-img::before {
         height: 32rem;
     }
+
     .tab-text {
         width: 100%;
     }
 
-    .tab-text{
+    .tab-text {
         height: 12rem;
         flex-direction: column;
         justify-content: space-around;
     }
 
-    .qna-section{
+    .qna-section {
         height: 130rem;
     }
 
@@ -279,7 +289,7 @@
         width: 20%;
     }
 
-    .answer{
+    .answer {
         height: 21rem;
     }
 }
@@ -290,16 +300,16 @@
         height: 50rem;
     }
 
-    .join-row{
+    .join-row {
         flex-direction: column;
         align-items: center;
     }
 
-    .join-text{
+    .join-text {
         width: 70%;
     }
 
-    .join-img{
+    .join-img {
         width: 70%;
     }
 
@@ -311,21 +321,21 @@
         width: 100%;
     }
 
-    .tab-text{
+    .tab-text {
         height: 12rem;
         flex-direction: column;
         justify-content: space-around;
     }
 
-    .tab-search{
+    .tab-search {
         width: 45%;
     }
 
-    #tab-input{
+    #tab-input {
         width: 100%;
     }
 
-    .qna-section{
+    .qna-section {
         height: 150rem;
     }
 
@@ -337,12 +347,12 @@
         width: 35%;
     }
 
-    .answer{
+    .answer {
         height: 23rem;
     }
 
-    .btn-quest{
-        width:30%;
+    .btn-quest {
+        width: 30%;
     }
 }
 
@@ -352,16 +362,16 @@
         height: 50rem;
     }
 
-    .join-row{
+    .join-row {
         flex-direction: column;
         align-items: center;
     }
 
-    .join-text{
+    .join-text {
         width: 90%;
     }
 
-    .join-img{
+    .join-img {
         width: 75%;
     }
 
@@ -373,21 +383,21 @@
         width: 100%;
     }
 
-    .tab-text{
+    .tab-text {
         height: 12rem;
         flex-direction: column;
         justify-content: space-around;
     }
 
-    .tab-search{
+    .tab-search {
         width: 45%;
     }
 
-    #tab-input{
+    #tab-input {
         width: 100%;
     }
 
-    .qna-section{
+    .qna-section {
         height: 150rem;
     }
 
@@ -399,12 +409,12 @@
         width: 35%;
     }
 
-    .answer{
+    .answer {
         height: 23rem;
     }
 
-    .btn-quest{
-        width:30%;
+    .btn-quest {
+        width: 30%;
     }
 }
 
@@ -414,16 +424,16 @@
         height: 50rem;
     }
 
-    .join-row{
+    .join-row {
         flex-direction: column;
         align-items: center;
     }
 
-    .join-text{
+    .join-text {
         width: 90%;
     }
 
-    .join-img{
+    .join-img {
         width: 90%;
     }
 
@@ -435,25 +445,25 @@
         width: 100%;
     }
 
-    .tab-text{
+    .tab-text {
         height: 12rem;
         flex-direction: column;
         justify-content: space-around;
     }
 
-    .tab-search{
+    .tab-search {
         width: 45%;
     }
 
-    #tab-input{
+    #tab-input {
         width: 100%;
     }
 
-    .qna-section{
+    .qna-section {
         height: 150rem;
     }
 
-    .q-heading{
+    .q-heading {
         width: 82%;
     }
 
@@ -461,11 +471,11 @@
         width: 6%;
     }
 
-    .ans-text{
+    .ans-text {
         justify-content: space-around;
     }
 
-    .ans-para{
+    .ans-para {
         width: 95%;
     }
 
@@ -473,12 +483,12 @@
         width: 35%;
     }
 
-    .answer{
+    .answer {
         height: 23rem;
     }
 
-    .btn-quest{
-        width:30%;
+    .btn-quest {
+        width: 30%;
     }
 }
 
@@ -488,16 +498,16 @@
         height: 50rem;
     }
 
-    .join-row{
+    .join-row {
         flex-direction: column;
         align-items: center;
     }
 
-    .join-text{
+    .join-text {
         width: 95%;
     }
 
-    .join-img{
+    .join-img {
         width: 95%;
     }
 
@@ -510,25 +520,25 @@
         width: 100%;
     }
 
-    .tab-text{
+    .tab-text {
         height: 12rem;
         flex-direction: column;
         justify-content: space-around;
     }
 
-    .tab-search{
+    .tab-search {
         width: 55%;
     }
 
-    #tab-input{
+    #tab-input {
         width: 100%;
     }
 
-    .qna-section{
+    .qna-section {
         height: 180rem;
     }
 
-    .q-heading{
+    .q-heading {
         width: 82%;
     }
 
@@ -536,11 +546,11 @@
         width: 8%;
     }
 
-    .ans-text{
+    .ans-text {
         justify-content: space-around;
     }
 
-    .ans-para{
+    .ans-para {
         width: 95%;
     }
 
@@ -548,12 +558,12 @@
         width: 55%;
     }
 
-    .answer{
+    .answer {
         height: 29rem;
     }
 
-    .btn-quest{
-        width:30%;
+    .btn-quest {
+        width: 30%;
     }
 }
 
@@ -563,16 +573,16 @@
         height: 50rem;
     }
 
-    .join-row{
+    .join-row {
         flex-direction: column;
         align-items: center;
     }
 
-    .join-text{
+    .join-text {
         width: 95%;
     }
 
-    .join-img{
+    .join-img {
         width: 95%;
     }
 
@@ -585,25 +595,25 @@
         width: 100%;
     }
 
-    .tab-text{
+    .tab-text {
         height: 12rem;
         flex-direction: column;
         justify-content: space-around;
     }
 
-    .tab-search{
+    .tab-search {
         width: 65%;
     }
 
-    #tab-input{
+    #tab-input {
         width: 100%;
     }
 
-    .qna-section{
+    .qna-section {
         height: 200rem;
     }
 
-    .q-heading{
+    .q-heading {
         width: 90%;
     }
 
@@ -611,11 +621,11 @@
         width: 8%;
     }
 
-    .ans-text{
+    .ans-text {
         justify-content: space-around;
     }
 
-    .ans-para{
+    .ans-para {
         width: 95%;
     }
 
@@ -623,12 +633,12 @@
         width: 70%;
     }
 
-    .answer{
+    .answer {
         height: 31rem;
     }
 
-    .btn-quest{
-        width:42%;
+    .btn-quest {
+        width: 42%;
     }
 }
 
@@ -638,16 +648,16 @@
         height: 50rem;
     }
 
-    .join-row{
+    .join-row {
         flex-direction: column;
         align-items: center;
     }
 
-    .join-text{
+    .join-text {
         width: 95%;
     }
 
-    .join-img{
+    .join-img {
         width: 95%;
     }
 
@@ -660,25 +670,25 @@
         width: 100%;
     }
 
-    .tab-text{
+    .tab-text {
         height: 12rem;
         flex-direction: column;
         justify-content: space-around;
     }
 
-    .tab-search{
+    .tab-search {
         width: 65%;
     }
 
-    #tab-input{
+    #tab-input {
         width: 100%;
     }
 
-    .qna-section{
+    .qna-section {
         height: 210rem;
     }
 
-    .q-heading{
+    .q-heading {
         width: 90%;
     }
 
@@ -686,11 +696,11 @@
         width: 9%;
     }
 
-    .ans-text{
+    .ans-text {
         justify-content: space-around;
     }
 
-    .ans-para{
+    .ans-para {
         width: 99%;
     }
 
@@ -698,12 +708,12 @@
         width: 80%;
     }
 
-    .answer{
+    .answer {
         height: 34rem;
     }
 
-    .btn-quest{
-        width:42%;
+    .btn-quest {
+        width: 42%;
     }
 }
 
@@ -713,16 +723,16 @@
         height: 50rem;
     }
 
-    .join-row{
+    .join-row {
         flex-direction: column;
         align-items: center;
     }
 
-    .join-text{
+    .join-text {
         width: 95%;
     }
 
-    .join-img{
+    .join-img {
         width: 95%;
     }
 
@@ -735,29 +745,29 @@
         width: 100%;
     }
 
-    .tab-text{
+    .tab-text {
         height: 12rem;
         flex-direction: column;
         justify-content: space-around;
     }
 
-    .tab-search{
+    .tab-search {
         width: 65%;
     }
 
-    #tab-input{
+    #tab-input {
         width: 100%;
     }
 
-    .tab-btns{
+    .tab-btns {
         gap: 0;
     }
 
-    .qna-section{
+    .qna-section {
         height: 240rem;
     }
 
-    .q-heading{
+    .q-heading {
         width: 90%;
     }
 
@@ -765,11 +775,11 @@
         width: 11%;
     }
 
-    .ans-text{
+    .ans-text {
         justify-content: space-around;
     }
 
-    .ans-para{
+    .ans-para {
         width: 99%;
     }
 
@@ -777,11 +787,11 @@
         width: 100%;
     }
 
-    .answer{
+    .answer {
         height: 38rem;
     }
 
-    .btn-quest{
-        width:50%;
+    .btn-quest {
+        width: 50%;
     }
 }
