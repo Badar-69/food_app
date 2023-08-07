@@ -398,6 +398,18 @@
 }
 
 /* Media Queries */
+@media screen and (max-width:1920px) and (min-width:1500px) {
+    .single-section{
+        height: 78rem;
+    }
+
+    .img-row{
+        height: 26rem;
+    }
+}
+
+
+
 @media screen and (max-width:1024px) {
     .sing-one {
         flex-direction: column;
