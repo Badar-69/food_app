@@ -199,6 +199,24 @@
     }
 }
 
+@media screen and (max-width:1920px) and (min-width:1500px) {
+    .resta-section{
+        height: 50rem;
+    }
+
+    .row-one{
+        width: 25%;
+    }
+
+    .name-row{
+        justify-content: center;
+    }
+
+    .name-card{
+        width: 35%;
+    }
+}
+
 @media screen and (max-width:990px) and (min-width:320px) {
     .about-us {
         width: 65%;
