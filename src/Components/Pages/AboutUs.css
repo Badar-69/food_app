@@ -2,7 +2,7 @@
     height: 45rem;
     background-image: url('../../assets/background.png');
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
 }
 
 .about-us {
@@ -465,6 +465,36 @@ img.off {
 }
 
 /* Media Queries */
+@media screen and (max-width:1920px) and (min-width:1500px) {
+    .about-row{
+        justify-content: space-evenly;
+        height: 40rem;
+    }
+
+    .about-text{
+        width: 30%;
+    }
+
+    .mission-row{
+        justify-content: center;
+    }
+
+    .mid-row{
+        justify-content: center;
+        gap: 2rem;
+    }
+
+    .member{
+        width: 27%;
+    }
+
+    .member-text{
+        text-align: start;
+    }
+}
+
+
+
 @media screen and (max-width:1270px) and (min-width:1024px) {
     .abt-img {
         width: 26rem;
