@@ -309,7 +309,6 @@ body {
     display: none; /* Initially hidden on larger screens */
 }
 
-
 /* Media Queries */
 
 @media screen and (max-width:1920px) and (min-width:1500px) {
