@@ -14,6 +14,7 @@ import card1 from '../../assets/card-1.png'
 import card2 from '../../assets/card-2.png'
 import card3 from '../../assets/card-3.png'
 import manImg2 from '../../assets/man-3.jpg'
+import SubForm from '../UI/SubForm'
 import Footer from '../UI/Footer'
 
 
@@ -206,7 +207,7 @@ function Services() {
                     </div>
                 </div>
             </div>
-
+            <SubForm/>
             <Footer/>
         </>
     )
