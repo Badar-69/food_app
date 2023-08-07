@@ -33,6 +33,7 @@ function Home() {
     return (
         <>
 
+
             <div className="front-main">
                 <div className="main-first">
                     <div className="main-text">
