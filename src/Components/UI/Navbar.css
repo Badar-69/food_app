@@ -301,14 +301,6 @@ body {
     outline: 2px solid #f29f05;
 }
 
-.mobile-menu-icon {
-    font-size: 20px;
-    color: #f29f05;
-    margin-left: 1rem;
-    cursor: pointer;
-    display: none; /* Initially hidden on larger screens */
-}
-
 /* Media Queries */
 
 @media screen and (max-width:1920px) and (min-width:1500px) {
