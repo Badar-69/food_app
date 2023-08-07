@@ -574,6 +574,34 @@
     margin-right: 5px;
 }
 
+@media screen and (max-width:1920px) and (min-width:1500px) {
+    .wk-card{
+        width: 30rem;
+    }
+
+    .serv-section{
+        justify-content: space-evenly;
+    }
+
+    .part-row{
+        justify-content: space-evenly;
+    }
+
+    .news-section{
+        height: 70rem;
+    }
+
+    .news-head{
+        width: 80rem;
+    }
+
+    .news-row{
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+
 @media screen and (max-width:1024px) and (min-width:916px) {
     .front-main {
         flex-direction: column;
