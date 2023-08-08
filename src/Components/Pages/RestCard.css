@@ -1,8 +1,5 @@
 .rest-data-section {
     height: 50rem;
-    background-image: url('../../assets/background.png');
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 
 .current-page {
@@ -31,8 +28,12 @@
     border-radius: 15px;
 }
 
+.time-heading{
+    font-weight: 600 !important;
+}
+
 .logo-rate {
-    width: 38%;
+    width: 40%;
 }
 
 .logo-heading {
@@ -99,13 +100,21 @@
     height: auto;
 }
 
+.meal-all-parent{
+    height: 6rem;
+}
+
 .meal-text-parent {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
     height: 6rem;
 }
 
 .meal-text {
     display: flex;
-    width: 100%;
+    width: 80%;
     height: 5rem;
     justify-content: space-between;
     align-items: center;
@@ -126,7 +135,7 @@
     border: none;
     font-family: 'Poppins', sans-serif;
     font-size: 18px;
-    font-weight: 800;
+    font-weight: 700;
     cursor: pointer;
     transition: .3s;
 }
@@ -346,12 +355,12 @@
         width: 70%;
     }
 
-    .meal-text-parent {
+    .meal-all-parent {
         height: 22rem;
     }
 
     .meal-text {
-        justify-content: center;
+        justify-content: space-around;
     }
 
     .dish {
@@ -373,12 +382,12 @@
         width: 70%;
     }
 
-    .meal-text-parent {
+    .meal-all-parent {
         height: 22rem;
     }
 
     .meal-text {
-        justify-content: center;
+        justify-content: space-around;
     }
 
     .dish {
@@ -422,12 +431,12 @@
         width: 70%;
     }
 
-    .meal-text-parent {
+    .meal-all-parent {
         height: 22rem;
     }
 
     .meal-text {
-        justify-content: center;
+        justify-content: space-around;
     }
 
     .dish {
@@ -471,12 +480,12 @@
         width: 70%;
     }
 
-    .meal-text-parent {
+    .meal-all-parent {
         height: 22rem;
     }
 
     .meal-text {
-        justify-content: space-evenly;
+        justify-content: space-around;
     }
 
     .meals-row{
@@ -525,12 +534,12 @@
         width: 70%;
     }
 
-    .meal-text-parent {
+    .meal-all-parent {
         height: 12rem;
     }
 
     .meal-text {
-        justify-content: center;
+        justify-content: space-around;
         gap: 3rem;
     }
 
@@ -594,12 +603,12 @@
         top: 12rem;
     }
 
-    .meal-text-parent {
+    .meal-all-parent {
         height: 12rem;
     }
 
     .meal-text {
-        justify-content: center;
+        justify-content: space-around;
         gap: 3rem;
     }
 

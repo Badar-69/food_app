@@ -95,7 +95,7 @@
 
 .foot-icons:hover {
     background-color: #f29f05;
-    border: none;
+    border: 1px solid #f29f05;
 }
 
 @media screen and (max-width:918px) and (min-width:768px) {

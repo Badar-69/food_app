@@ -28,34 +28,36 @@ import Footer from '../UI/Footer'
 function AboutUs() {
   return (
     <>
-      <div className="about-section">
-        <div className="about-us">
-          <span className='pr-page'>Home <i className="abt-arrow fa-solid fa-arrow-right"></i> <span className="cr-page">About Us</span></span>
-        </div>
-
-        <div className="about-row">
-          <div className="about-text">
-            <h2 className='about-heading'>Nothing to worry about with Quickeat</h2>
-            <p className="about-para">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus nemo corporis nihil.
-            </p>
+      <div className="background-image home-container">
+        <div className="about-section">
+          <div className="about-us">
+            <span className='pr-page'>Home <i className="abt-arrow fa-solid fa-arrow-right"></i> <span className="cr-page">About Us</span></span>
           </div>
 
-          <div className="about-img">
-            <img className='abt-img' src={abtImg} alt="" />
-          </div>
-        </div>
+          <div className="about-row">
+            <div data-aos="fade-up" className="about-text">
+              <h2 className='about-heading'>Nothing to worry about with Quickeat</h2>
+              <p className="about-para">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus nemo corporis nihil.
+              </p>
+            </div>
 
+            <div data-aos="fade-up" className="about-img">
+              <img className='abt-img' src={abtImg} alt="" />
+            </div>
+          </div>
+
+        </div>
       </div>
 
       {/* Mission Section */}
       <div className="mission-section">
         <div className="mission-row">
-          <div className="mission-img">
+          <div data-aos="flip-up" className="mission-img">
             <img className='miss-img' src={missImg} alt="" />
           </div>
 
-          <div className="mission-text">
+          <div data-aos="flip-up" className="mission-text">
             <h2 className='mission-heading'>Our mission is to save you time</h2>
             <p className="mission-para">
               Viverra vitae congue eu consequat ac felis. Imperdiet massa tincidunt nunc pulvinar sapien et ligula ullamcorper. Velit ut tortor pretium viverra suspendisse potenti nullam ac tortor.
@@ -71,7 +73,7 @@ function AboutUs() {
       <div className="card-section">
         <div className="cards-row">
 
-          <div className="card card-1">
+          <div data-aos="flip-up" className="card card-1">
             <div className="card-text">
               <img className='on' src={cardImg1} alt="" />
               <img className='off' src={off1} alt="" />
@@ -82,7 +84,7 @@ function AboutUs() {
             </div>
           </div>
 
-          <div className="card card-2">
+          <div data-aos="flip-up" className="card card-2">
             <div className="card-text">
               <img className='on' src={cardImg2} alt="" />
               <img className='off' src={off2} alt="" />
@@ -93,7 +95,7 @@ function AboutUs() {
             </div>
           </div>
 
-          <div className="card card-3">
+          <div data-aos="flip-up" className="card card-3">
             <div className="card-text">
               <img className='on' src={cardImg3} alt="" />
               <img className='off' src={off3} alt="" />
@@ -104,7 +106,7 @@ function AboutUs() {
             </div>
           </div>
 
-          <div className="card card-4">
+          <div data-aos="flip-up" className="card card-4">
             <div className="card-text">
               <img className='on' src={cardImg4} alt="" />
               <img className='off' src={off4} alt="" />
@@ -121,7 +123,7 @@ function AboutUs() {
       {/* Mid Section */}
       <div className="mid-section">
         <div className="mid-row">
-          <div className="mid-text">
+          <div data-aos="fade-up" className="mid-text">
             <h2 className='mid-heading'>Wait a minute for delicious</h2>
             <p className="mid-para">
               Amet massa vitae tortor condimentum lacinia quis. Elit at imperdiet dui accumsan sit amet nulla facilisi. Lacus laoreet non curabitur gravida arcu ac tortor dignissim.
@@ -137,7 +139,7 @@ function AboutUs() {
             </ul>
           </div>
 
-          <div className="mid-img">
+          <div data-aos="fade-up" className="mid-img">
             <img className='mid-pic' src={midImg} alt="" />
           </div>
         </div>
@@ -147,33 +149,33 @@ function AboutUs() {
       {/* Counter Section */}
       <div className="count-section">
         <div className="count-row">
-          <div className="count-first">
+          <div data-aos="flip-up" className="count-first">
             <img className='count-img' src={countImg} alt="" />
           </div>
 
           <div className="count-second">
             <div className="count-flex">
-              <div className="counter-1 counter">
+              <div data-aos="flip-up" className="counter-1 counter">
                 <div className="count-text">
                   <h2 className="count-heading-1">Service shows good taste.</h2>
                 </div>
               </div>
 
-              <div className="counter">
+              <div data-aos="flip-up" className="counter">
                 <div className="count-text">
                   <h2 className='count-heading'>976</h2>
                   <p className='count-para'>Satisfied Customer</p>
                 </div>
               </div>
 
-              <div className="counter">
+              <div data-aos="flip-up" className="counter">
                 <div className="count-text">
                   <h2 className='count-heading'>12</h2>
                   <p className='count-para'>Best Restaurants</p>
                 </div>
               </div>
 
-              <div className="counter">
+              <div data-aos="flip-up" className="counter">
                 <div className="count-text">
                   <h2 className='count-heading'>1K+</h2>
                   <p className='count-para'>Food Delivered</p>
@@ -186,7 +188,7 @@ function AboutUs() {
 
       {/* Team Section */}
       <div className="team-section">
-        <div className="team-first">
+        <div data-aos="fade-up" className="team-first">
           <div className="team-text">
             <h2 className="team-heading">Our Team</h2>
             <p className="team-para">Enim lobortis scelerisque fermentum dui faucibus. Tempor commodo ullamcorper a lacus vestibulum sed arcu non. Magna ac placerat vestibulum lectus mauris.</p>
@@ -194,7 +196,7 @@ function AboutUs() {
         </div>
 
         <div className="team-second">
-          <div className="member member-one">
+          <div data-aos="fade-up" className="member member-one">
             <img className='team-img' src={team1} alt="" />
             <div className="member-text">
               <h4 className="memb-heading">Kevin Adamson</h4>
@@ -206,7 +208,7 @@ function AboutUs() {
             </div>
           </div>
 
-          <div className="member member-two">
+          <div data-aos="fade-up" className="member member-two">
             <img className='team-img' src={team2} alt="" />
             <div className="member-text">
               <h4 className="memb-heading">Roxie Gilbert</h4>
@@ -218,7 +220,7 @@ function AboutUs() {
             </div>
           </div>
 
-          <div className="member member-three">
+          <div data-aos="fade-up" className="member member-three">
             <img className='team-img' src={team3} alt="" />
             <div className="member-text">
               <h4 className="memb-heading">Edgar Johnson</h4>
@@ -237,11 +239,11 @@ function AboutUs() {
       {/* Trust Section */}
       <div className="trust-parent">
         <div className="trust-section">
-          <div className="trust-text">
+          <div data-aos="fade-up" className="trust-text">
             <span className='trust-heading'>Our Trusted Partners</span>
           </div>
 
-          <div className="trust-comp">
+          <div data-aos="fade-up" className="trust-comp">
             <div className="trust-wrap">
               <img className='trust-img' src={logo1} alt="" />
               <p className='trust-name'>Kings Arms</p>
@@ -274,18 +276,18 @@ function AboutUs() {
       {/* Review Section */}
       <div className="review-section">
         <div className="review-row">
-          <div className="rev rev-one">
+          <div data-aos="fade-up" className="rev rev-one">
             <p className='rev-heading'>Service shows good taste.</p>
             <p className="rev-para">Enim lobortis scelerisque fermentum dui faucibus. Tempor commodo ullamcorper a lacus vestibulum sed arcu non.</p>
           </div>
 
-          <div className="rev rev-two">
+          <div data-aos="fade-up" className="rev rev-two">
             <p className="rev-para">"Tortor vitae purus faucibus ornare suspendisse. Ut porttitor leo a diam. Massa tincidunt nunc pulvinar sapien et ligula ullamcorper malesuada proin. Ut tortor pretium viverra suspendisse".</p>
             <img src={tomImg} alt="" />
             <span className="rev-name">Thomas Adamson</span>
           </div>
 
-          <div className="rev rev-three">
+          <div data-aos="fade-up" className="rev rev-three">
             <p className="rev-para">"Tortor vitae purus faucibus ornare suspendisse. Ut porttitor leo a diam. Massa tincidunt nunc pulvinar sapien et ligula ullamcorper malesuada proin. Ut tortor pretium viverra suspendisse".</p>
             <img src={tomImg} alt="" />
             <span className="rev-name">Thomas Adamson</span>
@@ -293,8 +295,8 @@ function AboutUs() {
         </div>
       </div>
 
-      <SubForm/>
-      <Footer/>
+      <SubForm />
+      <Footer />
     </>
   )
 }

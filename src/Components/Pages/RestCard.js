@@ -53,106 +53,97 @@ function RestCard() {
     };
 
 
-    // const handleIncrement = (id) => {
-    //     dishes.map((item) => {
-    //         if (item.id === id) { setCount(count + 1) };
-    //     })
-    // };
-
-    // const handleDecrement = (id) => {
-    //     dishes.map((item) => {
-    //         if (item.id === id) { setCount(count - 1) }
-    //     })
-    // }
-
-
 
 
     return (
         <>
-            <div className="rest-data-section">
-                <div className="current-page">
-                    <span className='pr-page'>Home <i className="abt-arrow fa-solid fa-arrow-right"></i> <span className="pr-page">Restaurants</span>  <i className="abt-arrow fa-solid fa-arrow-right"></i> <span className="cr-page">The Wilmington</span></span>
-                </div>
-                <div className="data-row">
-                    <div className="logo-rate">
-                        <div className="logo-detail">
-                            <img className='rst-img' src={restName} alt="" />
-                            <h2 className="logo-heading">Kennington Lane Cafe</h2>
-                        </div>
-
-                        <p className='rate-span'>Rate:</p>
-                        <div className="stars">
-                            <i className="star-icon fa-solid fa-star"></i>
-                            <i className="star-icon fa-solid fa-star"></i>
-                            <i className="star-icon fa-solid fa-star"></i>
-                            <i className="star-icon fa-solid fa-star"></i>
-                            <i className="star-icon fa-solid fa-star-half-stroke"></i>
-                        </div>
-
-                        <p className="rate-span">CUISINES:</p>
-                        <div className="tags">
-                            <a href='/' className="name-tags">american</a>
-                            <a href='/' className="name-tags">steakhouse</a>
-                            <a href='/' className="name-tags">seafood</a>
-                        </div>
-
-                        <p className="rate-span">Features:</p>
-                        <p className="feature-para">Lorem mollis aliquam ut porttitor. Nisl rhoncus mattis rhoncus urna neque. Pharetra sit amet aliquam id. Urna nec tincidunt praesent semper feugiat nibh.</p>
-
+            <div className="background-image home-container">
+                <div className="rest-data-section">
+                    <div className="current-page">
+                        <span className='pr-page'>Home <i className="abt-arrow fa-solid fa-arrow-right"></i> <span className="pr-page">Restaurants</span>  <i className="abt-arrow fa-solid fa-arrow-right"></i> <span className="cr-page">The Wilmington</span></span>
                     </div>
-
-                    <div className="logo-img">
-                        <div className="logo-time">
-                            <i className="logo-icon fa-solid fa-clock"></i>
-
-                            <div className="logo-text">
-                                <h4 className="time-heading">
-                                    9am - 12pm
-                                    <br />
-                                    Hours
-                                </h4>
+                    <div className="data-row">
+                        <div data-aos="fade-up" className="logo-rate">
+                            <div className="logo-detail">
+                                <img className='rst-img' src={restName} alt="" />
+                                <h2 className="logo-heading">Kennington Lane Cafe</h2>
                             </div>
+
+                            <p className='rate-span'>Rate:</p>
+                            <div className="stars">
+                                <i className="star-icon fa-solid fa-star"></i>
+                                <i className="star-icon fa-solid fa-star"></i>
+                                <i className="star-icon fa-solid fa-star"></i>
+                                <i className="star-icon fa-solid fa-star"></i>
+                                <i className="star-icon fa-solid fa-star-half-stroke"></i>
+                            </div>
+
+                            <p className="rate-span">CUISINES:</p>
+                            <div className="tags">
+                                <a href='/' className="name-tags">american</a>
+                                <a href='/' className="name-tags">steakhouse</a>
+                                <a href='/' className="name-tags">seafood</a>
+                            </div>
+
+                            <p className="rate-span">Features:</p>
+                            <p className="feature-para">Lorem mollis aliquam ut porttitor. Nisl rhoncus mattis rhoncus urna neque. Pharetra sit amet aliquam id. Urna nec tincidunt praesent semper feugiat nibh.</p>
+
                         </div>
 
-                        <div className="logo-lunch">
-                            <i className="logo-icon fa-solid fa-utensils"></i>
+                        <div data-aos="fade-up" className="logo-img">
+                            <div className="logo-time">
+                                <i className="logo-icon fa-solid fa-clock"></i>
 
-                            <div className="logo-text">
-                                <h4 className="time-heading">
-                                    Breakfast, Lunch, Dinner
-                                    <br />
-                                    Meals
-                                </h4>
+                                <div className="logo-text">
+                                    <h4 className="time-heading">
+                                        9am - 12pm
+                                        <br />
+                                        Hours
+                                    </h4>
+                                </div>
                             </div>
-                        </div>
 
-                        <img className='sect-img' src={logoImg} alt="" />
+                            <div className="logo-lunch">
+                                <i className="logo-icon fa-solid fa-utensils"></i>
+
+                                <div className="logo-text">
+                                    <h4 className="time-heading">
+                                        Breakfast, Lunch, Dinner
+                                        <br />
+                                        Meals
+                                    </h4>
+                                </div>
+                            </div>
+
+                            <img className='sect-img' src={logoImg} alt="" />
+                        </div>
                     </div>
                 </div>
             </div>
 
             <div className="meals-section">
                 <div className="meals-select">
-                    <div className="meal-text-parent">
-                        <div className="meal-text">
+                    <div className="meal-all-parent">
+                        <div className="meal-text-parent">
+                            <div className="meal-text">
 
-                            <div className="meal-btns">
-                                <button className='btns-rest meal-break'>Breakfast</button>
-                                <button className='btns-rest meal-lunch'>Lunch</button>
-                                <button className='btns-rest meal-dinner'>Dinner</button>
-                            </div>
+                                <div className="meal-btns">
+                                    <button className='btns-rest meal-break'>Breakfast</button>
+                                    <button className='btns-rest meal-lunch'>Lunch</button>
+                                    <button className='btns-rest meal-dinner'>Dinner</button>
+                                </div>
 
-                            <div className="like-meals">
-                                <i className="meal-icon fa-solid fa-heart"></i>
-                                <a className='meal-para' href="/food_app">Like Meals</a>
+                                <div className="like-meals">
+                                    <i className="meal-icon fa-solid fa-heart"></i>
+                                    <a className='meal-para' href="/food_app">Like Meals</a>
+                                </div>
                             </div>
                         </div>
                     </div>
 
                     <div className="meals-row">
                         {dishes.map((dish, index) => (
-                            <div className="dish">
+                            <div data-aos="flip-up" className="dish">
                                 <img className="dish-img" src={dish.image} alt="dish pic" />
                                 <div className="dish-details">
                                     <h3 className="dish-heading">{dish.title}</h3>
@@ -203,7 +194,7 @@ function RestCard() {
 
                         <div className="lunch-row">
                             {lunch.map((dish, index) => (
-                                <div className="dish">
+                                <div data-aos="flip-up" className="dish">
                                     <img className="dish-img" src={dish.image} alt="dish pic" />
                                     <div className="dish-details">
                                         <h3 className="dish-heading">{dish.title}</h3>

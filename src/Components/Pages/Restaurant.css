@@ -102,15 +102,13 @@
 .bg-btn {
     width: 10rem;
     height: 3.2rem;
-    background-color: #fff;
-    color: #f29f05;
+    border-radius: 7px;
     outline: 2px solid #f29f05;
+    font-size: 16px;
 }
 
 .bg-btn:hover {
-    background-color: #f29f05;
-    color: #fff;
-    outline: none;
+    outline: 2px solid #f29f05;
 }
 
 /* Name Section */
@@ -153,7 +151,7 @@
     width: auto;
     height: 2rem;
     border-radius: 5px;
-    margin-left: .5rem;
+    margin-right: .5rem;
     padding: .3rem .9rem;
     outline: 1px solid #f29f05;
     color: #f29f05;
@@ -210,6 +208,10 @@
 
     .name-row{
         justify-content: center;
+    }
+
+    .bg-month{
+        width: 15%;
     }
 
     .name-card{

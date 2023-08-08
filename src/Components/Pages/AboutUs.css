@@ -1,8 +1,5 @@
 .about-section {
     height: 45rem;
-    background-image: url('../../assets/background.png');
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 
 .about-us {
@@ -145,7 +142,6 @@ img.off {
     top: 1rem;
     left: 2rem;
     opacity: 0;
-    transition: opacity 0.3s ease-in-out;
 }
 
 .card:hover img.off {
@@ -373,6 +369,7 @@ img.off {
     background-color: #f29f05;
     color: #fff;
     border: none;
+    border: 1px solid #f29f05;
 }
 
 /* Trust Section */
@@ -396,7 +393,7 @@ img.off {
 
 .trust-heading {
     font-size: 48px;
-    font-weight: 900;
+    font-weight: 700;
 }
 
 .trust-comp {
@@ -409,7 +406,7 @@ img.off {
 .trust-name {
     text-align: center;
     color: #C7C7C7;
-    font-weight: 900;
+    font-weight: 700;
 }
 
 .trust-img {
@@ -447,7 +444,7 @@ img.off {
 
 .rev-heading {
     font-size: 32px;
-    font-weight: 900;
+    font-weight: 700;
 }
 
 .rev-para {
@@ -457,7 +454,7 @@ img.off {
 .rev-name {
     color: #000;
     font-size: 18px;
-    font-weight: 700;
+    font-weight: 500;
 }
 
 .rev-one {
@@ -485,11 +482,9 @@ img.off {
     }
 
     .member{
-        width: 27%;
-    }
-
-    .member-text{
-        text-align: start;
+        display: grid;
+        grid-template-columns: min-content;
+        width: 25%;
     }
 }
 

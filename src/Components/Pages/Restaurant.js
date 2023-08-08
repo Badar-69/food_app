@@ -30,7 +30,7 @@ function Restaurant() {
                 </div>
 
                 <div className="resta-row">
-                    <div className="row-one">
+                    <div data-aos="fade-up" className="row-one">
                         <div className="row-text">
                             <h3 className='row-heading'>Restaurants</h3>
                             <p className="row-para">Egestas sed tempus urna et pharetra pharetra massa. Fermentum posuere urna nec tincidunt praesent semper.</p>
@@ -46,7 +46,7 @@ function Restaurant() {
                         </div>
                     </div>
 
-                    <div className="row-two">
+                    <div data-aos="fade-up" className="row-two">
                         <img className='row-img' src={rowImg} alt="" />
                     </div>
                 </div>
@@ -55,7 +55,7 @@ function Restaurant() {
             {/* Bg Section */}
             <div className="bg-parent">
                 <div className="bg-section">
-                    <div className="bg-container">
+                    <div  data-aos="fade-up" className="bg-container">
                         <div className="banner-img">
                             <div className="bg-top">
                                 <div className="bg-month">
@@ -84,7 +84,7 @@ function Restaurant() {
             <div className="name-section" >
                 <div className="name-row" >
                     {restData.map((rest, index) => (
-                        <div className="name-card" key={index}>
+                        <div data-aos="flip-up" className="name-card" key={index}>
                             <div className="name-text" >
                                 <img className='name-img' src={rest.image} alt="" />
                                 <h4 className="name-heading">{rest.title}</h4>
