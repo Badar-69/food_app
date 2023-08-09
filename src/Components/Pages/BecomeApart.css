@@ -105,6 +105,12 @@
     width: 90%;
     height: 3.3rem;
     font-size: 17px;
+    background-color: #f29f05;
+    color: #fff;
+}
+
+.button-form:hover{
+    background-color: #fff;
 }
 
 .benefits-section{
@@ -216,7 +222,7 @@
 }
 
 /* 768px */
-@media screen and (max-width:766px) and (min-width:320px) {
+@media screen and (max-width:768px) and (min-width:320px) {
     .courier-parent{
         height: 80rem;
     }
@@ -245,6 +251,11 @@
         display: flex;
         justify-content: center;
     }
+
+    .courier-form{
+        height: 41rem;
+    }
+
 
     .benefits-section{
         height: 80rem;
@@ -321,10 +332,15 @@
 }
 
 
+
 /* 450px */
 @media screen and (max-width:450px) and (min-width:320px) {
     .courier-parent{
         height: 90rem;
+    }
+
+    .courier-section{
+        height: 33rem;
     }
 
     .courier-row{
@@ -351,8 +367,16 @@
         justify-content: center;
     }
 
+    .courier-form{
+        height: 47rem;
+    }
+
     .form-textarea{
         width: 95%;
+    }
+
+    .textarea{
+        width: 100%;
     }
 
     .benefits-section{
@@ -365,7 +389,7 @@
     }
 
     .ben-cards-section{
-        height: 105rem;
+        height: 113rem;
     }
 
     .ben-card-row{

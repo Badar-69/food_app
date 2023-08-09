@@ -13,12 +13,12 @@ function Faq() {
                     <span className='pr-page'>Home <i className="abt-arrow fa-solid fa-arrow-right"></i> <span className="cr-page">FAQ</span></span>
                 </div>
                 <div className="join-row">
-                    <div className="join-text">
+                    <div data-aos="fade-up" className="join-text">
                         <h2 className="join-heading">Want to join partnership?</h2>
                         <p className="join-para">Egestas sed tempus urna et pharetra pharetra massa. Fermentum posuere urna nec tincidunt praesent semper.</p>
                     </div>
 
-                    <div className="join-img">
+                    <div data-aos="fade-up" className="join-img">
                         <div className="mark">
                             <i class="quest-icon fa-solid fa-question"></i>
                         </div>

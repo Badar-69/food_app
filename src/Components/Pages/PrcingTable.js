@@ -24,7 +24,7 @@ function PrcingTable() {
 
                 <div className="table-section">
                     <div className="table-row">
-                        <div className="table-parent table-one">
+                        <div data-aos="flip-up" className="table-parent table-one">
                             <div className="table-top">
                                 <div className="table-top-img">
                                     <img className='tab-image' src={tabImg1} alt="" />
@@ -68,7 +68,7 @@ function PrcingTable() {
                         </div>
 
                         {/* 2nd */}
-                        <div className="table-parent table-two">
+                        <div data-aos="flip-up" className="table-parent table-two">
                             <div className="table-top">
                                 <div className="table-top-img">
                                     <img className='tab-image' src={tabImg2} alt="" />
@@ -111,7 +111,7 @@ function PrcingTable() {
                         </div>
 
                         {/* 3rd */}
-                        <div className="table-parent table-three">
+                        <div data-aos="flip-up" className="table-parent table-three">
                             <div className="table-top">
                                 <div className="table-top-img">
                                     <img className='tab-image' src={tabImg3} alt="" />

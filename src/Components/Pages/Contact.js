@@ -14,20 +14,20 @@ function Contact() {
 
                 <div className="contact-row">
                     <div className="contact-row-one">
-                        <div className="contact-text">
+                        <div data-aos="fade-up" className="contact-text">
                             <h2 className="contact-head">Contact Us</h2>
                             <p className="contact-para">Egestas sed tempus urna et pharetra pharetra massa. Fermentum posuere urna nec tincidunt praesent semper.</p>
                         </div>
 
                         <div className="contact-info">
-                            <div className="con-address">
+                            <div data-aos="flip-up" className="con-address">
                                 <div className="add-text">
                                     <i class="add-icon fa-solid fa-location-dot"></i>
                                     <h5 className="add-heading">1717 Harrison St, San Francisco, CA 94103, United States</h5>
                                 </div>
                             </div>
 
-                            <div className="con-address">
+                            <div data-aos="flip-up" className="con-address">
                                 <div className="add-text">
                                     <i class="add-icon fa-solid fa-envelope"></i>
                                     <h6 className="add-small">quick.info@mail.net</h6>
@@ -38,7 +38,7 @@ function Contact() {
                                 </div>
                             </div>
 
-                            <div className="con-address">
+                            <div data-aos="flip-up" className="con-address">
                                 <div className="add-text">
                                     <i class="add-icon fa-solid fa-phone"></i>
                                     <h6 className="add-small">+1 425 326 16 27</h6>
@@ -51,7 +51,7 @@ function Contact() {
                         </div>
                     </div>
 
-                    <div className="contact-row-two">
+                    <div data-aos="fade-up" className="contact-row-two">
                         <img className='contact-img' src={conImg} alt="" />
                     </div>
                 </div>

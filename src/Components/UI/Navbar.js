@@ -8,6 +8,14 @@ import '../UI/Navbar.css'
 import checkImg from '../../assets/cafe-1.jpg'
 
 function Navbar() {
+    const [isMobileMenuOpen, setMobileMenuOpen] = useState(false);
+
+    const handleMobileMenuToggle = () => {
+        setMobileMenuOpen(!isMobileMenuOpen);
+    };
+
+
+
     const { sidebarDishes, setSidebarDishes } = useAppContext();
 
     const { addToCart } = useCartContext();
@@ -114,7 +122,6 @@ function Navbar() {
                                             <NavLink to="/pages/404" className="dropdown-link-item">
                                                 404
                                             </NavLink>
-                                            {/* Add more NavLink elements for other pages as needed */}
                                         </div>
                                     )}
                                 </Link>
@@ -128,10 +135,58 @@ function Navbar() {
                                 <div className="icon-box">
                                     <i className="bag-icon fa-solid fa-bag-shopping" onClick={handleSidebarToggle}></i>
                                 </div>
+                                <i className={`mobile-menu-icon fas ${isMobileMenuOpen ? 'fa-times' : 'fa-bars'}`} onClick={handleMobileMenuToggle}></i>
                                 <Buttons text='ORDER NOW' className='nav-button' />
                             </div>
                         </div>
                     </div>
+
+                    {isMobileMenuOpen && (
+                        <div className="mobile-menu">
+                            <NavLink exact to="/" className="mob-links" activeClassName="active">
+                                Home
+                            </NavLink>
+                            <NavLink to="/about" className="mob-links" activeClassName="active">
+                                About Us
+                            </NavLink>
+                            <NavLink to="/restaurants"
+                                className="dropdown-link">
+                                Restaurants
+                            </NavLink>
+
+                            <NavLink to="/restaurants/restaurant_card" className="dropdown-link">
+                                Restaurant Card
+                            </NavLink>
+                            <NavLink to="/restaurants/checkout"
+                                className="dropdown-link">
+                                Checkout
+                            </NavLink>
+                            <NavLink to="/pages/blog" className="dropdown-link-item">
+                                Blog
+                            </NavLink>
+                            <NavLink to="/pages/single_blog" className="dropdown-link-item">
+                                Single Blog
+                            </NavLink>
+                            <NavLink to="/pages/services" className="dropdown-link-item">
+                                Serivces
+                            </NavLink>
+                            <NavLink to="/pages/faq" className="dropdown-link-item">
+                                FAQ
+                            </NavLink>
+                            <NavLink to="/pages/pricing_table" className="dropdown-link-item">
+                                Pricing Table
+                            </NavLink>
+                            <NavLink to="/pages/become_a_partner" className="dropdown-link-item">
+                                Become a Partner
+                            </NavLink>
+                            <NavLink to="/pages/404" className="dropdown-link-item">
+                                404
+                            </NavLink>
+                            <NavLink to="/contacts" className="mob-links" activeClassName="active">
+                                Contacts
+                            </NavLink>
+                        </div>
+                    )}
 
                     {isSidebarOpen && (
 

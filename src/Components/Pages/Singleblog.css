@@ -56,6 +56,7 @@
 
 .sing-blog-img {
     width: 30%;
+    mix-blend-mode: darken;
 }
 
 .girl-name {
@@ -220,7 +221,7 @@
     font-size: 14px;
     color: #787878;
     margin-top: 2px;
-    font-weight: 800;
+    font-weight: 600;
 }
 
 .text-tags {
@@ -344,7 +345,7 @@
 
 .comm-user {
     display: flex;
-    width: 80%;
+    width: 78%;
     justify-content: flex-end;
     align-items: center;
 }
@@ -354,6 +355,7 @@
     width: 78%;
     align-items: center;
     float: right;
+    gap: 1rem;
 }
 
 .comm-user-text {
@@ -384,17 +386,10 @@
 }
 
 .btn-comm {
-    width: 15%;
+    width: 14%;
     height: 3rem;
     font-family: 'Poppins', sans-serif;
-    background-color: #fff;
-    color: #f29f05;
     outline: 2px solid #f29f05;
-}
-
-.btn-comm:hover {
-    background-color: #f29f05;
-    color: #fff;
 }
 
 /* Media Queries */
@@ -405,6 +400,14 @@
 
     .img-row{
         height: 26rem;
+    }
+
+    .comm-head{
+        width: 65%;
+    }
+
+    .btn-serv{
+        width: 34%;
     }
 }
 
@@ -544,6 +547,10 @@
 
     .comm-left {
         width: 95%;
+    }
+
+    .btn-serv{
+        width: 100%;
     }
 }
 

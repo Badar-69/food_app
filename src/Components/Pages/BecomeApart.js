@@ -22,7 +22,7 @@ function BecomeApart() {
                                 </div>
                             </div>
 
-                            <div className="courier-row-two">
+                            <div data-aos="fade-up" className="courier-row-two">
                                 <div className="courier-form">
                                     <h3 className="form-heading">Join Courier</h3>
                                     <p className="form-para">Egestas sed tempus urna et pharetra pharetra massa. Fermentum posuere urna nec tincidunt praesent semper.</p>
@@ -66,7 +66,7 @@ function BecomeApart() {
 
             <div className="ben-cards-section">
                 <div className="ben-card-row">
-                    <div className="ben-card ben-card-1">
+                    <div data-aos="flip-up" className="ben-card ben-card-1">
                         <div className="ben-card-text">
                             <h4 className="ben-card-heading">
                                 <i class="ben-icon fa-solid fa-people-group"></i>
@@ -80,7 +80,7 @@ function BecomeApart() {
                     </div>
 
                     {/* 2nd */}
-                    <div className="ben-card ben-card-1">
+                    <div data-aos="flip-up" className="ben-card ben-card-1">
                         <div className="ben-card-text">
                             <h4 className="ben-card-heading">
                                 <i class="ben-icon fa-regular fa-calendar-days"></i>
@@ -94,7 +94,7 @@ function BecomeApart() {
                     </div>
 
                     {/* 3rd */}
-                    <div className="ben-card ben-card-1">
+                    <div data-aos="flip-up" className="ben-card ben-card-1">
                         <div className="ben-card-text">
                             <h4 className="ben-card-heading">
                                 <i class="ben-icon fa-solid fa-briefcase"></i>
@@ -108,7 +108,7 @@ function BecomeApart() {
                     </div>
 
                     {/* 4th */}
-                    <div className="ben-card ben-card-1">
+                    <div data-aos="flip-up" className="ben-card ben-card-1">
                         <div className="ben-card-text">
                             <h4 className="ben-card-heading">
                                 <i class="ben-icon fa-solid fa-money-bill-1-wave"></i>
@@ -122,7 +122,7 @@ function BecomeApart() {
                     </div>
 
                     {/* 5th */}
-                    <div className="ben-card ben-card-1">
+                    <div data-aos="flip-up" className="ben-card ben-card-1">
                         <div className="ben-card-text">
                             <h4 className="ben-card-heading">
                                 <i class="ben-icon fa-solid fa-arrow-up-right-dots"></i>
@@ -136,7 +136,7 @@ function BecomeApart() {
                     </div>
 
                     {/* 6th */}
-                    <div className="ben-card ben-card-1">
+                    <div data-aos="flip-up" className="ben-card ben-card-1">
                         <div className="ben-card-text">
                             <h4 className="ben-card-heading">
                                 <i class="ben-icon fa-solid fa-folder-open"></i>

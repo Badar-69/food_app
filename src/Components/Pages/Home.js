@@ -35,7 +35,7 @@ function Home() {
 
             <div className="background-image home-container">
                 <div className="front-main">
-                    <div data-aos="fade-up" className="main-first">
+                    <div data-aos="fade-up" className="global-left main-first">
                         <div className="main-text">
                             <span className="main-heading">
                                 The Best Restaurants In Your Home
@@ -57,7 +57,7 @@ function Home() {
                         </div>
                     </div>
 
-                    <div data-aos="fade-up" className="main-second">
+                    <div data-aos="fade-up" className="global-right main-second">
                         <div className="main-location">
                             <i className="locate-icon fa-solid fa-location-dot"></i>
                             <div className="main-locate-text">

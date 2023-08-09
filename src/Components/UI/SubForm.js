@@ -7,11 +7,11 @@ function SubForm() {
     return (
         <>
             <div className="sub-form">
-                <div className="sub-first">
+                <div data-aos="flip-up" className="sub-first">
                     <img className='sub-Img' src={subImg} alt="Subscribe img" />
                 </div>
 
-                <div className="sub-second">
+                <div data-aos="fade-up" className="sub-second">
                     <div className="sub-text">
                         <span className='sub-heading'>Get the menu of your favourite restaurants every day</span>
                         <div className="submit">

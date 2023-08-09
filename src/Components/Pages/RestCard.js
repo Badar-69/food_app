@@ -21,8 +21,8 @@ function RestCard() {
 
 
     const dishes = [
-        { image: dish1, title: 'Egg, kiwi and sauce chilli', price: '39' },
-        { image: dish2, title: 'Potatoes with chicken and dried fruits', price: '46' },
+        { image: dish1, title: 'Egg, kiwi and sauce chilli and tomatoes', price: '39' },
+        { image: dish2, title: 'Potatoes with chicken and dried...', price: '46' },
         { image: dish3, title: 'Rice with shrimps and kiwi', price: '49' },
         { image: dish4, title: 'Spaghetti with mushrooms and...', price: '49' },
         { image: dish5, title: 'Sliced chicken, avocado and...', price: '39' },
@@ -30,7 +30,7 @@ function RestCard() {
     ]
 
     const lunch = [
-        { image: dish7, title: 'Fruits with rice chips', price: '39' },
+        { image: dish7, title: 'Fruits with rice chips and peanuts', price: '39' },
         { image: dish8, title: 'Vegetables with rice chips', price: '35' },
         { image: dish9, title: 'Chicken with vegetables and...', price: '45' },
     ]

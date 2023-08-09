@@ -47,7 +47,7 @@ function Singleblog() {
                         </div>
                     </div>
 
-                    <div className="sing-second">
+                    <div data-aos="flip-up" className="sing-second">
                         <img className='full-blog-img' src={fullBlog} alt="" />
                     </div>
                 </div>
@@ -177,24 +177,24 @@ function Singleblog() {
                 </div>
 
                 <div className="comment-parent">
-                        <div className="main-comm-part">
-                            <div className="main-comm">
-                                <p className="comm-text">Vitae congue mauris rhoncus aenean vel elit scelerisque. Mollis nunc sed id semper. Ac orci phasellus egestas tellus rutrum tellus pellentesque. Urna nec tincidunt praesent semper feugiat nibh sed pulvinar proin. Enim praesent elementum facilisis leo vel fringilla est. Porta nibh venenatis cras sed felis eget velit aliquet sagittis. At in tellus integer feugiat scelerisque varius.
-                                </p>
+                    <div className="main-comm-part">
+                        <div className="main-comm">
+                            <p className="comm-text">Vitae congue mauris rhoncus aenean vel elit scelerisque. Mollis nunc sed id semper. Ac orci phasellus egestas tellus rutrum tellus pellentesque. Urna nec tincidunt praesent semper feugiat nibh sed pulvinar proin. Enim praesent elementum facilisis leo vel fringilla est. Porta nibh venenatis cras sed felis eget velit aliquet sagittis. At in tellus integer feugiat scelerisque varius.
+                            </p>
 
-                                <p className="reply">Reply <i class="fa-solid fa-reply"></i></p>
-                            </div>
+                            <p className="reply">Reply <i class="fa-solid fa-reply"></i></p>
                         </div>
+                    </div>
 
-                        <div className="comm-user">
-                            <div className="comm-user-text">
-                                <h4 className="user-name">Jackie Johnson</h4>
-                                <p className="comm-date">30.Dec.2022</p>
-                            </div>
-                            <div className="comm-img">
-                                <img className='user-img' src={tomImg} alt="" />
-                            </div>
+                    <div className="comm-user">
+                        <div className="comm-user-text">
+                            <h4 className="user-name">Jackie Johnson</h4>
+                            <p className="comm-date">30.Dec.2022</p>
                         </div>
+                        <div className="comm-img">
+                            <img className='user-img' src={tomImg} alt="" />
+                        </div>
+                    </div>
 
                     {/* 2nd */}
                     <div className="main-comm-part">
@@ -207,12 +207,13 @@ function Singleblog() {
                     </div>
 
                     <div className="comm-left">
+                        <div className="comm-img">
+                            <img className='user-img' src={userImg2} alt="" />
+                        </div>
+
                         <div className="comm-user-text">
                             <h4 className="user-name">Annie Adamson</h4>
                             <p className="comm-date">30.Dec.2022</p>
-                        </div>
-                        <div className="comm-img">
-                            <img className='user-img' src={userImg2} alt="" />
                         </div>
                     </div>
 
@@ -227,12 +228,13 @@ function Singleblog() {
                     </div>
 
                     <div className="comm-left">
+                        <div className="comm-img">
+                            <img className='user-img' src={userImg3} alt="" />
+                        </div>
+
                         <div className="comm-user-text">
                             <h4 className="user-name">Annie Adamson</h4>
                             <p className="comm-date">30.Dec.2022</p>
-                        </div>
-                        <div className="comm-img">
-                            <img className='user-img' src={userImg3} alt="" />
                         </div>
                     </div>
 
@@ -247,12 +249,13 @@ function Singleblog() {
                     </div>
 
                     <div className="comm-left">
+                        <div className="comm-img">
+                            <img className='user-img' src={userImg2} alt="" />
+                        </div>
+
                         <div className="comm-user-text">
                             <h4 className="user-name">Annie Adamson</h4>
                             <p className="comm-date">30.Dec.2022</p>
-                        </div>
-                        <div className="comm-img">
-                            <img className='user-img' src={userImg2} alt="" />
                         </div>
                     </div>
 
@@ -278,12 +281,12 @@ function Singleblog() {
                 </div>
 
                 <div className="comm-button">
-                    <Buttons text='SEE ALL COMMENTS' className='btn-comm' /> 
+                    <Buttons text='SEE ALL COMMENTS' className='btn-comm' />
                 </div>
             </div>
 
-            <SubForm/>
-            <Footer/>
+            <SubForm />
+            <Footer />
         </>
     )
 }

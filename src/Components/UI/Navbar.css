@@ -319,6 +319,21 @@
     height: 100vh;
 }
 
+.mobile-menu-icon {
+    font-size: 20px;
+    color: #f29f05;
+    margin-left: 1rem;
+    cursor: pointer;
+    display: none; /* Initially hidden on larger screens */
+}
+
+.mob-links{
+    text-decoration: none;
+    color: #363636;
+    transition: .3s;
+}
+
+
 /* Media Queries */
 
 @media screen and (max-width:1920px) and (min-width:1500px) {
@@ -380,7 +395,7 @@
 
 }
 
-@media screen and (max-width:720px) and (min-width:320px) {
+@media screen and (max-width:768px) and (min-width:320px) {
     .header {
         width: 20rem;
     }
@@ -390,8 +405,48 @@
         left: 0;
     }
 
+    
+    .nav-right {
+        display: flex;
+        align-items: center;
+    }
+
+    .pg-links {
+         display: none; /* Hide regular navigation links */
+    }
+
     .links {
         display: none;
+    }
+
+    .mobile-menu-icon {
+        display: block;
+    }
+
+    .mobile-menu {
+        display: flex;
+        width: 50%;
+        flex-direction: column;
+        background-color: #fff;
+        box-shadow: -1px 0px 30px 4px rgba(0, 0, 0, 0.05);
+        padding: 8px;
+        z-index: 1000;
+        position: absolute;
+        top: 4rem;
+        right: 2em;
+    }
+
+    .mobile-menu .mob-links {
+        color: #363636;
+        text-decoration: none;
+        padding: 10px;
+        width: 100%;
+        transition: .3s;
+    }
+
+    .mobile-menu .mob-links.active {
+        color: #f29f05;
+        border-bottom: none;
     }
 
     .nav-button {

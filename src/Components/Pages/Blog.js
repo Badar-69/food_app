@@ -29,7 +29,7 @@ function Blog() {
                     <span className='pr-page'>Home <i className="abt-arrow fa-solid fa-arrow-right"></i> <span className="cr-page">Blog Page</span></span>
                 </div>
                 <div className="blog-row">
-                    <div className="blog-row-one">
+                    <div data-aos="fade-up" className="blog-row-one">
                         <div className="blog-text">
                             <h2 className="blog-heading">Current news about Us</h2>
                             <p className="blog-para">Egestas sed tempus urna et pharetra pharetra massa. Fermentum posuere urna nec tincidunt praesent semper.
@@ -37,7 +37,7 @@ function Blog() {
                         </div>
                     </div>
 
-                    <div className="blog-row-two">
+                    <div data-aos="flip-up" className="blog-row-two">
                         <img className='blog-img' src={blogImg} alt="" />
                     </div>
                 </div>
@@ -45,7 +45,7 @@ function Blog() {
 
             <div className="post-section">
                 <div className="post-parent">
-                    <div className="post-row">
+                    <div data-aos="fade-up" className="post-row">
                         <div className="post-row-one">
                             <img src={postImg} alt="" className="img-post" />
                         </div>
@@ -72,7 +72,7 @@ function Blog() {
             <div className="news-section">
                 <div className="news-blog-row">
                     {blogs.map((blog, index) => (
-                        <div className="news-child">
+                        <div data-aos="flip-up" className="news-child">
                             <img src={blog.image} alt="" className="img-news" />
                             <h3 className="news-blog-head">{blog.title}</h3>
                             <p className="news-para">Scelerisque purus semper eget duis at. Tincidunt ornare massa eget egestas purus viverra. Morbi enim nunc faucibus a pellentesque. Lobortis elementum nibh tellus molestie nunc non...</p>

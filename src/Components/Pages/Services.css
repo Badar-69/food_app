@@ -66,6 +66,7 @@
     z-index: 999;
     background-color: #fff;
     text-align: center;
+    border-radius: 25px;
 }
 
 .box2-heading {
@@ -185,7 +186,7 @@
 }
 
 /* Media Queries */
-@media screen and (max-width:1920px) {
+@media screen and (max-width:1920px) and (min-width:1500px) {
     .seerv-row{
         align-items: center;
     }
@@ -208,11 +209,15 @@
     .order-img {
         width: 35%;
     }
+
+    .btn-seerv{
+        width: 27%;
+    }
 }
 
 
 
-@media screen and (max-width:1024px) {
+@media screen and (max-width:1024px) and (min-width:768px) {
     .seerv-row-two {
         width: 57%;
     }
@@ -252,6 +257,11 @@
     .order-text {
         width: 85%;
     }
+
+    .btn-seerv{
+        width: 40%;
+    }
+
 }
 
 /* 768px */
@@ -309,6 +319,10 @@
 
     .order-text {
         width: 85%;
+    }
+
+    .btn-seerv{
+        width: 27%;
     }
 }
 

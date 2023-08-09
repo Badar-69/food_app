@@ -27,7 +27,7 @@ function Services() {
                 </div>
 
                 <div className="seerv-row">
-                    <div className="seerv-row-one">
+                    <div  data-aos="fade-up" className="seerv-row-one">
                         <div className="seerv-text">
                             <h2 className="seerv-heading">Services shows good taste</h2>
 
@@ -40,7 +40,7 @@ function Services() {
                         </div>
                     </div>
 
-                    <div className="seerv-row-two">
+                    <div  data-aos="fade-up" className="seerv-row-two">
                         <div className="seerv-boxes">
                             <div className="box-1">
                                 <img className='seerv-img' src={manImg} alt="" />
@@ -69,7 +69,7 @@ function Services() {
             <div className="card-section">
                 <div className="cards-row">
 
-                    <div className="card card-1">
+                    <div data-aos="flip-up" className="card card-1">
                         <div className="card-text">
                             <img className='on' src={cardImg1} alt="" />
                             <img className='off' src={off1} alt="" />
@@ -80,7 +80,7 @@ function Services() {
                         </div>
                     </div>
 
-                    <div className="card card-2">
+                    <div data-aos="flip-up" className="card card-2">
                         <div className="card-text">
                             <img className='on' src={cardImg2} alt="" />
                             <img className='off' src={off2} alt="" />
@@ -91,7 +91,7 @@ function Services() {
                         </div>
                     </div>
 
-                    <div className="card card-3">
+                    <div data-aos="flip-up" className="card card-3">
                         <div className="card-text">
                             <img className='on' src={cardImg3} alt="" />
                             <img className='off' src={off3} alt="" />
@@ -102,7 +102,7 @@ function Services() {
                         </div>
                     </div>
 
-                    <div className="card card-4">
+                    <div data-aos="flip-up" className="card card-4">
                         <div className="card-text">
                             <img className='on' src={cardImg4} alt="" />
                             <img className='off' src={off4} alt="" />
@@ -121,17 +121,17 @@ function Services() {
 
             <div className="work-section">
                 <div className="work-parent">
-                    <div className="work-text">
+                    <div data-aos="fade-up" className="work-text">
                         <span className="work-heading">How It Works</span>
                         <p className="work-para">Magna sit amet purus gravida quis blandit turpis cursus. Venenatis tellus in metus vulputate eu scelerisque felis.</p>
                     </div>
                 </div>
 
                 <div className="work-cards">
-                    <div className="wk-card wk-card1">
+                    <div data-aos="flip-up" className="wk-card wk-card1">
                         <img src={card1} alt="" />
                         <div className="crd-text">
-                            <h4 className='card-heading'><span className='work-span'>01</span> Select Restaurant
+                            <h4 className='cardhm-heading'><span className='work-span'>01</span> Select Restaurant
                             </h4>
                             <p className="card-para">
                                 Nunc lobortis mattis aliquam faucibus. Nibh ipsum consequat nisl vel pretium lectus quam id leo. A scelerisque purus semper eget. Tincidunt arcu non.
@@ -139,20 +139,20 @@ function Services() {
                         </div>
                     </div>
 
-                    <div className="wk-card wk-card2">
+                    <div data-aos="flip-up" className="wk-card wk-card2">
                         <img src={card2} alt="" />
                         <div className="crd-text">
-                            <h4 className='card-heading'><span className='work-span'>02</span> Select menu</h4>
+                            <h4 className='cardhm-heading'><span className='work-span'>02</span> Select menu</h4>
                             <p className="card-para">
                                 Eu mi bibendum neque egestas congue quisque. Nulla facilisi morbi tempus iaculis urna id volutpat lacus. Odio ut sem nulla pharetra diam sit amet.
                             </p>
                         </div>
                     </div>
 
-                    <div className="wk-card wk-card3">
+                    <div data-aos="flip-up" className="wk-card wk-card3">
                         <img src={card3} alt="" />
                         <div className="crd-text">
-                            <h4 className='card-heading'><span className='work-span'>03</span> Wait for delivery</h4>
+                            <h4 className='cardhm-heading'><span className='work-span'>03</span> Wait for delivery</h4>
                             <p className="card-para">
                                 Nunc lobortis mattis aliquam faucibus. Nibh ipsum consequat nisl vel pretium lectus quam id leo. A scelerisque purus semper eget. Tincidunt arcu non.
                             </p>
@@ -164,11 +164,11 @@ function Services() {
             {/* Order Section */}
             <div className="order-section">
                 <div className="order-row">
-                    <div className="order-img">
+                    <div  data-aos="fade-up" className="order-img">
                         <img className='man-img' src={manImg2} alt="" />
                     </div>
 
-                    <div className="order-text">
+                    <div  data-aos="fade-up" className="order-text">
                         <h2 className="order-heading">Sit at Home We Will Take Care Your Order</h2>
                         <p className="order-para">Magna sit amet purus gravida quis blandit turpis cursus. Venenatis tellus in metus vulputate eu scelerisque felis.</p>
 

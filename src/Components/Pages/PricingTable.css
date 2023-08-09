@@ -164,6 +164,12 @@
     height: 3.5rem;
     border-radius: 18px;
     font-size: 16px;
+    background-color: #f29f05;
+}
+
+.btn-table:hover{
+    background-color: #fff;
+    color: #f29f05;
 }
 
 /* Media Queries */

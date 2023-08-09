@@ -517,7 +517,7 @@
 .post-link {
     text-decoration: none;
     color: #f29f05;
-    font-weight: 800;
+    font-weight: 700;
 }
 
 .post-credits {
@@ -1101,7 +1101,7 @@
     }
 
     .rest-parent {
-        height: 63rem;
+        height: 52rem;
         flex-direction: column;
         flex-wrap: nowrap;
         align-items: center;
@@ -1807,7 +1807,7 @@
 
 
     .rest-section {
-        height: 84rem;
+        height: 92rem;
     }
 
     .rest-parent {
@@ -1832,7 +1832,7 @@
 
     .fav-section {
         flex-direction: column;
-        height: 64rem;
+        height: 74rem;
     }
 
     .fav-second {
@@ -1987,7 +1987,7 @@
 
 
     .rest-section {
-        height: 84rem;
+        height: 92rem;
     }
 
     .rest-parent {
@@ -2012,7 +2012,7 @@
 
     .fav-section {
         flex-direction: column;
-        height: 64rem;
+        height: 76rem;
     }
 
     .fav-second {
@@ -2178,7 +2178,7 @@
 
 
     .rest-section {
-        height: 84rem;
+        height: 92rem;
     }
 
     .rest-parent {
@@ -2216,7 +2216,7 @@
 
     .fav-section {
         flex-direction: column;
-        height: 64rem;
+        height: 76rem;
     }
 
     .fav-second {

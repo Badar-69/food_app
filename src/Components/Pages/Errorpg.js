@@ -12,7 +12,7 @@ function Errorpg() {
         </div>
       </div>
 
-      <div className="error-section">
+      <div data-aos="fade-up" className="error-section">
         <div className="error-one">
           <img className='error-img' src={errorImg} alt="" />
           <h2 className="error-404">404</h2>
