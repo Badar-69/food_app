@@ -150,36 +150,36 @@ function Navbar() {
                                 About Us
                             </NavLink>
                             <NavLink to="/restaurants"
-                                className="dropdown-link">
+                                className="mob-links dropdown-link">
                                 Restaurants
                             </NavLink>
 
-                            <NavLink to="/restaurants/restaurant_card" className="dropdown-link">
+                            <NavLink to="/restaurants/restaurant_card" className="mob-links dropdown-link">
                                 Restaurant Card
                             </NavLink>
                             <NavLink to="/restaurants/checkout"
-                                className="dropdown-link">
+                                className="mob-links dropdown-link">
                                 Checkout
                             </NavLink>
-                            <NavLink to="/pages/blog" className="dropdown-link-item">
+                            <NavLink to="/pages/blog" className="mob-links dropdown-link-item">
                                 Blog
                             </NavLink>
-                            <NavLink to="/pages/single_blog" className="dropdown-link-item">
+                            <NavLink to="/pages/single_blog" className="mob-links dropdown-link-item">
                                 Single Blog
                             </NavLink>
-                            <NavLink to="/pages/services" className="dropdown-link-item">
+                            <NavLink to="/pages/services" className="mob-links dropdown-link-item">
                                 Serivces
                             </NavLink>
-                            <NavLink to="/pages/faq" className="dropdown-link-item">
+                            <NavLink to="/pages/faq" className="mob-links dropdown-link-item">
                                 FAQ
                             </NavLink>
-                            <NavLink to="/pages/pricing_table" className="dropdown-link-item">
+                            <NavLink to="/pages/pricing_table" className="mob-links dropdown-link-item">
                                 Pricing Table
                             </NavLink>
-                            <NavLink to="/pages/become_a_partner" className="dropdown-link-item">
+                            <NavLink to="/pages/become_a_partner" className="mob-links dropdown-link-item">
                                 Become a Partner
                             </NavLink>
-                            <NavLink to="/pages/404" className="dropdown-link-item">
+                            <NavLink to="/pages/404" className="mob-links dropdown-link-item">
                                 404
                             </NavLink>
                             <NavLink to="/contacts" className="mob-links" activeClassName="active">
