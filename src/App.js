@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import '../src/App.css'
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { useLocation, BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { AppProvider } from './Context/Context';
 import Navbar from "./Components/UI/Navbar";
 import Home from "./Components/Pages/Home";
@@ -25,6 +25,17 @@ function App() {
     AOS.init();
   }, [])
 
+  function PageWrapper({ title, children }) {
+    const location = useLocation();
+
+    useEffect(() => {
+      document.title = `Quickeat - ${title}`;
+    }, [location.pathname, title]);
+
+    return children;
+  }
+
+
   return (
     <>
       <AppProvider>
@@ -32,20 +43,30 @@ function App() {
           <div className="background-container">
             <Navbar />
             <Routes>
-              <Route path="/" element={<Home />} exact />
-
-              <Route path="/about" element={<AboutUs />} />
-              <Route path="/restaurants" element={<Restaurant />} />
-              <Route path="/restaurants/restaurant_card" element={<RestCard />} />
-              <Route path="/restaurants/checkout" element={<Checkout />} />
-              <Route path="/pages/blog" element={<Blog />} />
-              <Route path="/pages/single_blog" element={<Singleblog />} />
-              <Route path="/pages/services" element={<Services />} />
-              <Route path="/pages/faq" element={<Faq />} />
-              <Route path="/pages/pricing_table" element={<Pricingtable />} />
-              <Route path="/pages/become_a_partner" element={<BecApart />} />
-              <Route path="/pages/404" element={<Errorpg />} />
-              <Route path="/contacts" element={<Contact />} />
+              <Route path="/" element={<PageWrapper title="Home"><Home /></PageWrapper>} exact />
+              <Route path="/about" element={<PageWrapper title="About Us"><AboutUs /></PageWrapper>} />
+              <Route path="/restaurants" element={<PageWrapper title="Restaurants"><Restaurant />
+              </PageWrapper>} />
+              <Route path="/restaurants/restaurant_card" element={<PageWrapper title="Restaurant Card"><RestCard />
+              </PageWrapper>} />
+              <Route path="/restaurants/checkout" element={<PageWrapper title="Checkout"><Checkout />
+              </PageWrapper>} />
+              <Route path="/pages/blog" element={<PageWrapper title="Blog"><Blog />
+              </PageWrapper>} />
+              <Route path="/pages/single_blog" element={<PageWrapper title="Single Blog"><Singleblog />
+              </PageWrapper>} />
+              <Route path="/pages/services" element={<PageWrapper title="Services"><Services />
+              </PageWrapper>} />
+              <Route path="/pages/faq" element={<PageWrapper title="FAQ"><Faq />
+              </PageWrapper>} />
+              <Route path="/pages/pricing_table" element={<PageWrapper title="Pricing Table"><Pricingtable />
+              </PageWrapper>} />
+              <Route path="/pages/become_a_partner" element={<PageWrapper title="Become A Partner"><BecApart />
+              </PageWrapper>} />
+              <Route path="/pages/404" element={<PageWrapper title="404"><Errorpg />
+              </PageWrapper>} />
+              <Route path="/contacts" element={<PageWrapper title="Contact Us"><Contact />
+              </PageWrapper>}/>
             </Routes>
           </div>
 

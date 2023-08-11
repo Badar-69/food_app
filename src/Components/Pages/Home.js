@@ -34,7 +34,7 @@ function Home() {
         <>
 
             <div className="background-image home-container">
-                <div className="front-main">
+                <div className="global front-main">
                     <div data-aos="fade-up" className="main-first">
                         <div className="main-text">
                             <span className="main-heading">

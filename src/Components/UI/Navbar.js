@@ -14,8 +14,6 @@ function Navbar() {
         setMobileMenuOpen(!isMobileMenuOpen);
     };
 
-
-
     const { sidebarDishes, setSidebarDishes } = useAppContext();
 
     const { addToCart } = useCartContext();
@@ -74,20 +72,22 @@ function Navbar() {
                                 >
                                     Restaurants
                                     {isDropdownOpen && (
-                                        <div className="dropdown-menu">
-                                            <NavLink to="/restaurants"
-                                                className="dropdown-link">
-                                                Restaurants
-                                            </NavLink>
+                                        (
+                                            <div className="dropdown-menu">
+                                                <NavLink to="/restaurants"
+                                                    className="dropdown-link">
+                                                    Restaurants
+                                                </NavLink>
 
-                                            <NavLink to="/restaurants/restaurant_card" className="dropdown-link">
-                                                Restaurant Card
-                                            </NavLink>
-                                            <NavLink to="/restaurants/checkout"
-                                                className="dropdown-link">
-                                                Checkout
-                                            </NavLink>
-                                        </div>
+                                                <NavLink to="/restaurants/restaurant_card" className="dropdown-link">
+                                                    Restaurant Card
+                                                </NavLink>
+                                                <NavLink to="/restaurants/checkout"
+                                                    className="dropdown-link">
+                                                    Checkout
+                                                </NavLink>
+                                            </div>
+                                        )
                                     )}
 
                                 </Link>
